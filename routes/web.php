@@ -19,5 +19,5 @@ Route::get('/', function () {
 });
 
 
-Route::post('/sandbox/runCode', [SandboxController::class, 'runCode'])->name('run.Code');
+Route::post('/sandbox/runCode', [SandboxController::class, 'runCode'])->name('run.code');
 Route::resource('/sandbox', SandboxController::class);

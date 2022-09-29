@@ -26,6 +26,7 @@
         "
         id="exampleFormControlTextarea1"
         rows="3"
+        value=
         placeholder="Your message" required
       ></textarea>
     </div>
@@ -42,7 +43,8 @@
 <div class="col-span-8">
     <div class="terminal-window w-full mt-4">
         <div class="terminal-body">
-            <span class="prompt inline">:\{{substr (Request::root(), 7)}}{{ '>' }}</span> <span id="result" class="prompt inline">run code to get the result </span>
+            <span class="prompt inline ">:\{{substr (Request::root(), 7)}}{{ '>' }}</span>
+            <span id="result" class="prompt inline whitespace-pre-line">run code to get the result </span>
         </div>
     </div>
 </div>
@@ -50,11 +52,11 @@
 
 <script>
 
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
 
     $(document).on('click', '#submit', function(e) {
         e.preventDefault();
@@ -62,49 +64,16 @@
         if(code == '' || code == ' '){
             return;
         }else{
-            // runCode(code);
-            const data = new FormData();
-            data.append("text", "~ Function for Fizzbuzz(kafesheqer) in 5HQ1P\n\nprinto(\"Pershendetje Bote!\")\n\nper fizzbuzz = 0 deri 51 tani\n    nese fizzbuzz % 3 == 0 edhe fizzbuzz % 5 == 0 tani\n        printo(\"fizzbuzz\")\n        vazhdo\n\n    tjeter fizzbuzz % 3 == 0 tani\n        printo(\"fizz\")\n        vazhdo\n\n    tjeter fizzbuzz % 5 == 0 tani\n        printo(\"buzz\")\n        vazhdo\n    fund\n\n    printo(fizzbuzz)\nfund");
-
-            const xhr = new XMLHttpRequest();
-            xhr.withCredentials = true;
-
-            xhr.addEventListener("readystatechange", function () {
-            if (this.readyState === this.DONE) {
-                console.log(this);
-                // $('#result').html(this.responseText);
-            }
+            $.post("{{ route('run.code') }}", {
+                code: $('#code').val()
+            },
+            function(data){
+                console.log(data)
+                $('#result').html(data);
             });
-
-            xhr.open("POST", "http://127.0.0.1:8000/compile-sq");
-
-            xhr.send(data);
         }
-        
+
     })
-
-    function runCode(code) {
-        var baseUrl = 'http://127.0.0.1:8000/compile-sq';
-        let _token   = $('meta[name="csrf-token"]').attr('content');
-
-        $.ajax({
-                    url: baseUrl,
-                    type:"POST",
-                    // contentType: 'multipart/form-data',
-                    data:{
-                        text: code,
-                        _token: _token,
-                    },
-                    success:function(result) {
-                        console.log(result)
-                        $('#result').html(result);
-                    },
-                    error:function (response) {
-                        console.log(response);
-                    }
-                });
-    }
-
 </script>
 
 @endsection

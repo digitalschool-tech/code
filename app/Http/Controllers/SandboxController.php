@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class SandboxController extends Controller
 {
@@ -85,43 +86,14 @@ class SandboxController extends Controller
 
     public function runCode(Request $request)
     {
-        $text = $request->text;
-        
-        $client = new http\Client;
-        $request = new http\Client\Request;
+        $validated = $request->validate([
+            'code' => 'required',
+        ]);
 
-        $body = new http\Message\Body;
-        $body->addForm([
-            'text' => '~ Function for Fizzbuzz(kafesheqer) in 5HQ1P
-        
-          printo("Pershendetje Bote!")
-        
-          per fizzbuzz = 0 deri 51 tani
-              nese fizzbuzz % 3 == 0 edhe fizzbuzz % 5 == 0 tani
-                  printo("fizzbuzz")
-                  vazhdo
-        
-              tjeter fizzbuzz % 3 == 0 tani
-                  printo("fizz")
-                  vazhdo
-        
-              tjeter fizzbuzz % 5 == 0 tani
-                  printo("buzz")
-                  vazhdo
-              fund
-        
-              printo(fizzbuzz)
-          fund'
-          ], null);
+        $response = Http::asForm()->post('http://127.0.0.1:8000/compile-sq', [
+            'code' => $request->code,
+        ]);
 
-        $request->setRequestUrl('http://127.0.0.1:8000/compile-sq');
-        $request->setRequestMethod('POST');
-        $request->setBody($body);
-
-        $client->enqueue($request)->send();
-        $response = $client->getResponse();
-
-        // return $response;
-        return response()->json($response);
+        echo gettype($response->json()) == "array" ? implode("\n", $response->json()) : $response->json();
     }
 }
