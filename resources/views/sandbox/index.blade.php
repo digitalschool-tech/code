@@ -1,7 +1,28 @@
 @extends('layouts.app')
 @section('content')
 
-<form id="runCode">
+
+<div class="editor">
+  <div class="editor__wrapper">
+      <div class="editor__body">
+          <div id="editorCode" class="editor__code"></div>
+      </div>
+      <div class="editor__footer">
+          <div class="editor__footer--left">
+              <button id="submit" class="editor__btn editor__run">Run ></button>
+              <button class="editor__btn editor__reset">Reset ></button>
+          </div>
+          <div class="editor__footer--right">
+              <div class="editor__console">
+                  <ul class="editor__console-logs"></ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+{{-- <form id="runCode">
 <div class="flex justify-center">
     <div class="mb-3 xl:w-96">
       <label for="exampleFormControlTextarea1" class="form-label inline-block mb-2 text-gray-700"
@@ -47,33 +68,12 @@
             <span id="result" class="prompt inline whitespace-pre-line">run code to get the result </span>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 <script>
 
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        }
-    });
-
-    $(document).on('click', '#submit', function(e) {
-        e.preventDefault();
-        var code = $('#code').val();
-        if(code == '' || code == ' '){
-            return;
-        }else{
-            $.post("{{ route('run.code') }}", {
-                code: $('#code').val()
-            },
-            function(data){
-                console.log(data)
-                $('#result').html(data);
-            });
-        }
-
-    })
+    
 </script>
 
 @endsection
