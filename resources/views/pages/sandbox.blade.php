@@ -1,6 +1,10 @@
 @extends('layouts.app')
-@section('content')
 
+@section('style')
+    <link rel="stylesheet" href="{{ url('css/pages/sandbox.css') }}" />
+@endsection
+
+@section('content')
 
 <div class="editor">
   <div class="editor__wrapper">
@@ -47,7 +51,7 @@
         "
         id="exampleFormControlTextarea1"
         rows="3"
-        value=
+        value=""
         placeholder="Your message" required
       ></textarea>
     </div>
@@ -73,7 +77,7 @@
 
 <script>
 
-    
+
 </script>
 
 @endsection

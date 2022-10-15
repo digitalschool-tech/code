@@ -15,7 +15,7 @@ class SandboxController extends Controller
      */
     public function index()
     {
-        return view('sandbox.index');
+        return view('pages.sandbox');
     }
 
     /**

@@ -1,4 +1,3 @@
-
 $.ajaxSetup({
     headers: {
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -29,7 +28,10 @@ let editorLib = {
         });
 
         // Set Default Code
-        // codeEditor.setValue(defaultCode);
+        codeEditor.setValue(`per i = 0 deri 10 hap 2 tani
+    printo(i)
+fund`);
+
     }
 }
 
@@ -43,11 +45,9 @@ $(document).on('click', '#submit', function(e) {
             code: codeEditor.getValue()
         },
         function(data){
-            console.log(data)
-            $('.editor__console-logs').html(data);
+            $('.editor__console-logs').html(data.replace(/\r\n|\r|\n/g,"<br>"));
         });
     }
-
 })
 
 

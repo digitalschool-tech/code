@@ -15,7 +15,7 @@ use App\Http\Controllers\SandboxController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/homepage');
 });
 
 
