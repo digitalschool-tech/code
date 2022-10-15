@@ -17,19 +17,20 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="{{ url('css/editor.css') }}" />
+        @yield('style')
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     </head>
     <body class="bg-gray-100  ">
-        @include('layouts.inc.header')        
+        @include('layouts.inc.header')
 
             @yield('content')
             @include('layouts.inc.footer')
-            
 
-            <script src='{{ url('js/ace-editor/src-min/ace.js') }}'></script> 
-            <script src='{{ url('js/ace-editor/src-min/mode-python.js') }}'></script> 
-            <script src='{{ url('js/ace-editor/src-min/ext-language_tools.js') }}'></script> 
 
-            <script src='{{ url('js/editor.js') }}'></script> 
+            <script src='{{ url('js/ace-editor/src-min/ace.js') }}'></script>
+            <script src='{{ url('js/ace-editor/src-min/mode-python.js') }}'></script>
+            <script src='{{ url('js/ace-editor/src-min/ext-language_tools.js') }}'></script>
+
+            <script src='{{ url('js/editor.js') }}'></script>
     </body>
 </html>

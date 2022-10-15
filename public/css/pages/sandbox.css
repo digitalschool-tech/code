@@ -1,0 +1,11 @@
+body{
+    background-color: #9e6bf5 !important;
+}
+
+.ace_string, .ace_numeric{
+    color: #6B7BF5 !important;
+}
+
+.ace_keyword{
+    color: #9e6bf5 !important;
+}

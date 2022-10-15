@@ -12,16 +12,14 @@ define(
         var r = e("../lib/oop"),
             i = e("./text_highlight_rules").TextHighlightRules,
             s = function () {
-                var e =
-                        "and|as|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|not|or|pass|print|raise|return|try|while|with|yield|async|await|nonlocal",
-                    t = "True|False|None|NotImplemented|Ellipsis|__debug__",
-                    n =
-                        "abs|divmod|input|open|staticmethod|all|enumerate|int|ord|str|any|eval|isinstance|pow|sum|basestring|execfile|issubclass|print|super|binfile|bin|iter|property|tuple|bool|filter|len|range|type|bytearray|float|list|raw_input|unichr|callable|format|locals|reduce|unicode|chr|frozenset|long|reload|vars|classmethod|getattr|map|repr|xrange|cmp|globals|max|reversed|zip|compile|hasattr|memoryview|round|__import__|complex|hash|min|apply|delattr|help|next|setattr|set|buffer|dict|hex|object|slice|coerce|dir|id|oct|sorted|intern|ascii|breakpoint|bytes",
+                var e = "edhe|kpute|vazhdo|funksion|ose nese|perndryshe|per|deri|nese|hap|ne|eshte|jo|ose|printo|kthe|provo|derisa|tani|fund",
+                    t = "Bon|Sbon|",
+                    n = "shtyp|num|tekst|printo|shtyp_num|eshte_num|shuma|eshte_tekst|eshte_list|eshte_fun|shto|fshij|zgjat|sa|zbato|harto",
                     r = this.createKeywordMapper(
                         {
-                            "invalid.deprecated": "debugger",
+                            "invalid.deprecated": "",
                             "support.function": n,
-                            "variable.language": "self|cls",
+                            "variable.language": "",
                             "constant.language": t,
                             keyword: e,
                         },
