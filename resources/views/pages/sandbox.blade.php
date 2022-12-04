@@ -81,3 +81,10 @@
 </script>
 
 @endsection
+
+@section('scripts')
+  <script src='{{ url('js/ace-editor/src-min/ace.js') }}'></script>
+  <script src='{{ url('js/ace-editor/src-min/mode-python.js') }}'></script>
+  <script src='{{ url('js/ace-editor/src-min/ext-language_tools.js') }}'></script>
+  <script src='{{ url('js/editor.js') }}'></script>
+@endsection

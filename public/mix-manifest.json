@@ -1,4 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/js/level.js": "/js/level.js",
+    "/js/javascript_compressed.js": "/js/javascript_compressed.js",
     "/css/app.css": "/css/app.css"
 }

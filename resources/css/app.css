@@ -3,3 +3,45 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+@layer base{
+    table {
+        border-collapse: separate;
+        border-radius: 16px;
+    }
+    
+    td, th {
+        border-left: solid black 1px;
+        border-top: solid black 1px;
+        padding: 16px;
+    }
+    
+    th {
+        border-top: none;
+    }
+    
+    td:first-child, th:first-child {
+        border-left: none;
+    }
+}
+
+@layer utilities {
+    .card-purple{
+        background: linear-gradient(90deg, #A01CE3 0%, #BB5CEB 100%);
+    }
+    .card-red{
+        background: linear-gradient(90deg, #E33D1C 0%, #EB735C 100%);
+    }
+    .card-green{
+        background: linear-gradient(90deg, #1aab8b 0%, #6edcc4 100%);
+    }
+    .card-blue{
+        background: linear-gradient(90deg, #1CC2E3 0%, #5CD4EB 100%);
+    }
+}
+
+h2{
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: white;
+}

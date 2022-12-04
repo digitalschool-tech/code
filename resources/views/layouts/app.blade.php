@@ -20,17 +20,12 @@
         @yield('style')
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     </head>
-    <body class="bg-gray-100  ">
-        @include('layouts.inc.header')
+    <body class="relative">
 
             @yield('content')
-            @include('layouts.inc.footer')
+            @include('organisms.footer')
 
-
-            <script src='{{ url('js/ace-editor/src-min/ace.js') }}'></script>
-            <script src='{{ url('js/ace-editor/src-min/mode-python.js') }}'></script>
-            <script src='{{ url('js/ace-editor/src-min/ext-language_tools.js') }}'></script>
-
-            <script src='{{ url('js/editor.js') }}'></script>
+            @yield('scripts')
+            <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>

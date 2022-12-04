@@ -1,7 +1,12 @@
 <?php
 
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\LevelController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SandboxController;
+use App\Http\Controllers\PageController;
+use App\Models\course;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +19,16 @@ use App\Http\Controllers\SandboxController;
 |
 */
 
-Route::get('/', function () {
-    return view('pages/homepage');
-});
+
 
 
 Route::post('/sandbox/runCode', [SandboxController::class, 'runCode'])->name('run.code');
 Route::resource('/sandbox', SandboxController::class);
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/kursi/{course_id}/mesimi/{lesson_id}/niveli/{level_id}', [LevelController::class, 'index']);
+Route::get('/kursi/{id}', [CourseController::class, 'index']);
+Route::get('/{path?}', [PageController::class, 'index']);
