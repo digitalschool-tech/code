@@ -10,6 +10,7 @@ class level extends Model
     use HasFactory;
     protected $fillable = [
         'name',
+        'description',
         'lesson_id'
     ];
 

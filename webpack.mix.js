@@ -15,5 +15,4 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         require("tailwindcss"),
     ])
-    .js('resources/js/level.js', 'public/js')
-    .js('resources/js/blockly/javascript_compressed.js', 'public/js');
+    .js('resources/js/level.js', 'public/js');

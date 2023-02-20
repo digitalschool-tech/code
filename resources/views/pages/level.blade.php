@@ -1,14 +1,27 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="w-full h-full overflow-hidden">
+    <div style="display:none;">
+        <img id="down" src="{{ url('images/level/player/down.png') }}" width="40" height="40" />
+        <img id="up" src="{{ url('images/level/player/up.png') }}" width="40" height="40" />
+        <img id="left" src="{{ url('images/level/player/left.png') }}" width="40" height="40" />
+        <img id="right" src="{{ url('images/level/player/right.png') }}" width="40" height="40" />
+        <img id="grass_1" src="{{ url('images/level/grass/grass_1.png') }}" width="40" height="40" />
+        <img id="grass_2" src="{{ url('images/level/grass/grass_2.png') }}" width="40" height="40" />
+        <img id="grass_3" src="{{ url('images/level/grass/grass_3.png') }}" width="40" height="40" />
+        @for ($i = 1; $i < 11; $i++)
+            <img id="rock1_{{ $i }}" src='{{ url("images/level/obstacles/Rock1_$i.png") }}' width="40" height="40" />
+        @endfor
+        <img id="goal" src="{{ url('images/level/goal/goal.png') }}" width="40" height="40" />
+    </div>
+    <div id="main" class="w-full h-full overflow-hidden" data-player="{{ $level["player"] }}" data-goal="{{ $level["goal"] }}" data-route="{{ $level["route"] }}">
         <div class="w-full">
             <div class="w-full flex items-center h-10 px-6 bg-purp-200">
                 <p class="text-white-900 h-full border-b-4 border-white-900 flex items-center">Instruksionet</p>
             </div>
             <div class="bg-white-500 h-fit p-6 pb-10">
                 <div class="rounded-2xl bg-white-900 p-4 ">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>{{ $level["description"] }}</p>
                 </div>
             </div>
         </div>
@@ -19,7 +32,7 @@
                 </div>
                 <div id="blocklyDiv" class="bg-white-100 w-full h-full">
 
-                </div>     
+                </div>
             </div>
             <div class="w-[30%] h-full">
                 <div class="w-full flex flex-col justify-start items-start h-10 px-6 bg-purp-200">
@@ -32,7 +45,6 @@
             </div>
         </div>
     </div>
-
 @endsection
 
 @section('scripts')

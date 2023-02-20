@@ -45,9 +45,10 @@ class LevelController extends Controller
      * @param  \App\Models\level  $level
      * @return \Illuminate\Http\Response
      */
-    public function show(level $level)
+    public function show(level $level, $course_id, $lesson_id, $level_id)
     {
-        //
+        $level = level::findOrFail($level_id);
+        return view("pages.level", compact("level"));
     }
 
     /**

@@ -29,6 +29,6 @@ Route::resource('/sandbox', SandboxController::class);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/kursi/{course_id}/mesimi/{lesson_id}/niveli/{level_id}', [LevelController::class, 'index']);
+Route::get('/kursi/{course_id}/mesimi/{lesson_id}/niveli/{level_id}', [LevelController::class, 'show']);
 Route::get('/kursi/{id}', [CourseController::class, 'index']);
 Route::get('/{path?}', [PageController::class, 'index']);

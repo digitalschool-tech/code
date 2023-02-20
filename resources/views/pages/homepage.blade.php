@@ -26,8 +26,8 @@
     </div>
     <div class="h-[100vh] bg-no-repeat w-full bg-[url('{{ url('images/homepage/section.svg') }}')] ">
         <div class="container mx-auto px-4 h-full flex flex-col justify-start items-start">
-            <h2 class="mb-4">Lëndë 1-4 (4+ vjet)</h2>
-            @include("organisms.courses")
+            @include("organisms.courses", ["title" => "Lëndë 1-4 (4+ vjet)"])
+            @include("organisms.courses", ["title" => "Lëndë 1-4 (4+ vjet)"])
         </div>
     </div>
 </div>

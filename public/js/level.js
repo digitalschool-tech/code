@@ -20647,6 +20647,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var blockly_javascript__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(blockly_javascript__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_8__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e2) { throw _e2; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e3) { didErr = true; err = _e3; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 
 
@@ -20655,6 +20676,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+var playerDown = document.getElementById("down");
+var playerUp = document.getElementById("up");
+var playerLeft = document.getElementById("left");
+var playerRight = document.getElementById("right");
+var playerSprites = [playerUp, playerRight, playerDown, playerLeft];
+var goalImg = document.getElementById("goal");
+var grass_1 = document.getElementById("grass_1");
+var grass_2 = document.getElementById("grass_2");
+var grass_3 = document.getElementById("grass_3");
+var grasses = [grass_1, grass_2, grass_3];
+var obstacles = [];
+
+for (var i = 1; i < 11; i++) {
+  obstacles.push(document.getElementById("rock1_" + i));
+}
 
 addBlock(blockly__WEBPACK_IMPORTED_MODULE_0__, _blockly_blocks_forward__WEBPACK_IMPORTED_MODULE_4__);
 addBlock(blockly__WEBPACK_IMPORTED_MODULE_0__, _blockly_blocks_turn__WEBPACK_IMPORTED_MODULE_6__);
@@ -20682,8 +20720,12 @@ var button = document.getElementById("generate");
 var timeout = 0;
 button.addEventListener('click', function () {
   timeout = 0;
-  var jsCode = blockly_javascript__WEBPACK_IMPORTED_MODULE_7__.javascriptGenerator.workspaceToCode(workspace);
-  eval(jsCode);
+  playerDirection = 1;
+  drawPlayer();
+  setTimeout(function () {
+    var jsCode = blockly_javascript__WEBPACK_IMPORTED_MODULE_7__.javascriptGenerator.workspaceToCode(workspace);
+    eval(jsCode);
+  }, 300);
 });
 
 function addBlock(Blockly, Block) {
@@ -20691,25 +20733,38 @@ function addBlock(Blockly, Block) {
   blockly_javascript__WEBPACK_IMPORTED_MODULE_7__.javascriptGenerator[Block.name] = Block.Logic(blockly_javascript__WEBPACK_IMPORTED_MODULE_7__.javascriptGenerator);
 }
 
-var canvas;
-var ctx;
-starCanvas();
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext('2d');
+var grassCombination = [];
+var obstacleCombination = [];
+var obstaclesCombinationDone = false;
 
-function starCanvas() {
-  canvas = document.getElementById("canvas");
-  ctx = canvas.getContext('2d');
+function startCanvas() {
   canvas.width = 320;
   canvas.height = 320; // fill the entire canvas with black before drawing the circles
 
   ctx.fillStyle = '#ffffff';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
+  var index = 0;
 
-  for (var x = 0; x <= 8; x++) {
-    for (var y = 0; y <= 8; y++) {
-      ctx.fillStyle == "#ffffff" ? ctx.fillStyle = "#BC89FF" : ctx.fillStyle = "#ffffff";
-      ctx.fillRect(40 * x, 40 * y, 40, 40);
+  for (var x = 0; x <= 7; x++) {
+    for (var y = 0; y <= 7; y++) {
+      var grass = void 0;
+
+      if (grassCombination.length >= 64) {
+        grass = grasses[grassCombination[index]];
+        index++;
+      } else {
+        var grassType = Math.floor(Math.random() * 3);
+        grass = grasses[grassType];
+        grassCombination.push(grassType);
+      }
+
+      ctx.drawImage(grass, x * 40, y * 40);
     }
   }
+
+  console.log(grassCombination.length);
 }
 
 var playerX;
@@ -20717,49 +20772,124 @@ var playerY;
 var playerDirection;
 var goalX;
 var goalY;
+var finished;
+var routes = [];
 start();
 var space = 0;
 
 function start() {
-  playerX = 3;
-  playerY = 5;
+  var main = document.getElementById("main");
+  var playerPos = JSON.parse(main.getAttribute("data-player"));
+  playerX = playerPos[0];
+  playerY = playerPos[1];
+  var goalPos = JSON.parse(main.getAttribute("data-goal"));
+  goalX = goalPos[0];
+  goalY = goalPos[1];
   playerDirection = 1;
-  goalX = 5;
-  goalY = 5;
+  finished = false;
+  var route = JSON.parse(main.getAttribute("data-route"));
+  routes = [].concat(_toConsumableArray(route), [playerPos, goalPos]);
   drawPlayer();
 }
 
+function drawRoute() {
+  console.log(routes);
+  var obstacleCords = getObstacleCords(routes);
+  var obstacleIndex = 0;
+  obstacleCords.forEach(function (cord) {
+    drawObstacleAt.apply(void 0, _toConsumableArray(cord).concat([obstacleIndex]));
+    obstacleIndex++;
+  });
+  obstaclesCombinationDone = true;
+}
+
+function getObstacleCords(coords) {
+  // Create an empty 8x8 matrix
+  var matrix = new Array(8).fill(null).map(function () {
+    return new Array(8).fill(false);
+  }); // Loop through the given coordinates and mark them as present in the matrix
+
+  var _iterator = _createForOfIteratorHelper(coords),
+      _step;
+
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var coord = _step.value;
+
+      var _coord = _slicedToArray(coord, 2),
+          _row = _coord[0],
+          _col = _coord[1];
+
+      matrix[_row][_col] = true;
+    } // Loop through the matrix and find the missing coordinates
+
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
+
+  var missingCoords = [];
+
+  for (var row = 0; row < 8; row++) {
+    for (var col = 0; col < 8; col++) {
+      if (!matrix[row][col]) {
+        missingCoords.push([row, col]);
+      }
+    }
+  }
+
+  return missingCoords;
+}
+
+function drawObstacleAt(x, y, obstacleIndex) {
+  var obstacle;
+
+  if (obstaclesCombinationDone) {
+    obstacle = obstacles[obstacleCombination[obstacleIndex]];
+  } else {
+    var obstacleType = Math.floor(Math.random() * 10);
+    obstacle = obstacles[obstacleType];
+    obstacleCombination.push(obstacleType);
+  }
+
+  console.log("ob");
+  ctx.drawImage(obstacle, 40 * x, 40 * y);
+}
+
 function drawGoalAt() {
-  ctx.fillStyle = "#000";
-  ctx.fillRect(40 * goalX, 40 * (goalY - 1), 40, 40);
+  ctx.drawImage(goalImg, 40 * goalX, 40 * goalY);
+}
+
+function calcPlayerToGoalDistance() {
+  return [Math.round(playerX) - Math.round(goalX), Math.round(playerY) - Math.round(goalY)];
+}
+
+function checkWin() {
+  var distance = calcPlayerToGoalDistance();
+
+  if (distance[0] == 0 && distance[1] == 0 && finished == false) {
+    // alert("You WON!")
+    finished = true;
+  }
 }
 
 function drawPlayer() {
-  starCanvas();
+  startCanvas();
+  drawRoute();
   drawGoalAt();
+  checkWin();
   ctx.fillStyle = "#000";
   ctx.beginPath();
 
   if (playerDirection == 1) {
-    ctx.moveTo((playerX - 1) * 40, playerY * 40);
-    ctx.lineTo(playerX * 40, playerY * 40 - 20);
-    ctx.lineTo((playerX - 1) * 40, (playerY - 1) * 40);
-    ctx.fill();
+    ctx.drawImage(playerSprites[playerDirection], playerX * 40, playerY * 40);
   } else if (playerDirection == 0) {
-    ctx.moveTo((playerX - 1) * 40, playerY * 40);
-    ctx.lineTo(playerX * 40, playerY * 40);
-    ctx.lineTo(playerX * 40 - 20, (playerY - 1) * 40);
-    ctx.fill();
+    ctx.drawImage(playerSprites[playerDirection], playerX * 40, playerY * 40);
   } else if (playerDirection == 2) {
-    ctx.moveTo(playerX * 40 - 20, playerY * 40);
-    ctx.lineTo(playerX * 40, (playerY - 1) * 40);
-    ctx.lineTo(playerX * 40 - 40, (playerY - 1) * 40);
-    ctx.fill();
+    ctx.drawImage(playerSprites[playerDirection], playerX * 40, playerY * 40);
   } else if (playerDirection == 3) {
-    ctx.moveTo(playerX * 40, (playerY - 1) * 40);
-    ctx.lineTo(playerX * 40, playerY * 40);
-    ctx.lineTo((playerX - 1) * 40, playerY * 40 - 20);
-    ctx.fill();
+    ctx.drawImage(playerSprites[playerDirection], playerX * 40, playerY * 40);
   }
 }
 
@@ -20767,7 +20897,24 @@ function move_forward() {
   setTimeout(function () {
     for (var index = 0; index < 40; index++) {
       setTimeout(function () {
-        playerX += .025;
+        switch (playerDirection) {
+          case 0:
+            playerY -= .025;
+            break;
+
+          case 1:
+            playerX += .025;
+            break;
+
+          case 2:
+            playerY += .025;
+            break;
+
+          case 3:
+            playerX -= .025;
+            break;
+        }
+
         drawPlayer();
       }, 200);
     }
@@ -20781,6 +20928,10 @@ function turn(direction) {
       playerDirection++;
     } else {
       playerDirection--;
+    }
+
+    if (playerDirection < 0) {
+      playerDirection = 3;
     }
 
     drawPlayer();
