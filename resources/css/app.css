@@ -9,17 +9,17 @@
         border-collapse: separate;
         border-radius: 16px;
     }
-    
+
     td, th {
         border-left: solid black 1px;
         border-top: solid black 1px;
         padding: 16px;
     }
-    
+
     th {
         border-top: none;
     }
-    
+
     td:first-child, th:first-child {
         border-left: none;
     }
@@ -37,6 +37,18 @@
     }
     .card-blue{
         background: linear-gradient(90deg, #1CC2E3 0%, #5CD4EB 100%);
+    }
+    .card-yellow{
+        background: linear-gradient(90deg, #e6c700 0%, #eed84d 100%);
+    }
+    .card-pink{
+        background: linear-gradient(90deg, #EC1391 0%, #f25ab2 100%);
+    }
+    .card-orange{
+        background: linear-gradient(90deg, #ff6d00 0%, #ff994d 100%);
+    }
+    .card-dark-blue{
+        background: linear-gradient(90deg, #000CFF 0%, #4d55ff 100%);
     }
 }
 

@@ -20690,7 +20690,7 @@ var grass_3 = document.getElementById("grass_3");
 var grasses = [grass_1, grass_2, grass_3];
 var obstacles = [];
 
-for (var i = 1; i < 11; i++) {
+for (var i = 1; i < 7; i++) {
   obstacles.push(document.getElementById("rock1_" + i));
 }
 
@@ -20848,7 +20848,7 @@ function drawObstacleAt(x, y, obstacleIndex) {
   if (obstaclesCombinationDone) {
     obstacle = obstacles[obstacleCombination[obstacleIndex]];
   } else {
-    var obstacleType = Math.floor(Math.random() * 10);
+    var obstacleType = Math.floor(Math.random() * 6);
     obstacle = obstacles[obstacleType];
     obstacleCombination.push(obstacleType);
   }

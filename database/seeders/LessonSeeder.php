@@ -15,26 +15,51 @@ class LessonSeeder extends Seeder
      */
 
     private $courses = [
-        "Lëndë 1" => [
-            "Hartat e lumtura",
-            "Lëvize, lëvize",
+        "Renditja e veprimeve" => [
+            "Renditja e veprimeve",
+            "Imazhe",
+            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
+            "Sekuencat"
+        ],
+        "Imazhet" => [
+            "Renditja e veprimeve",
+            "Imazhe",
+        ],
+        "Ngjarjet" => [
+            "Renditja e veprimeve",
+            "Imazhe",
+            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
+        ],
+        "Ciklet" => [
+            "Renditja e veprimeve",
+            "Imazhe",
+            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
+            "Sekuencat"
+        ],
+        "Kushtet" => [
+            "Renditja e veprimeve",
+            "Imazhe",
             "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
             "Sekuencat",
-            "Korrigjimet",
-            "Algoritmet në përditshmëri: Mbillni një farë",
-            "Bleta: Sekuenca",
-            "Artisti: Sekuenca",
-            "Ndërtimi i një fondacioni",
-            "Artisti: Format",
-            "Drejtshkrim",
-            "Getting Loopy",
-            "Maze: Loops",
-            "Bee: Loops",
-            "The Big Event",
-            "Play Lab: Create a Story",
-            "Going Places Safely",
-            "Artist: Loops"
-        ]
+            "Imazhe",
+            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
+            "Sekuencat"
+        ],
+        "Funksione" => [
+            "Renditja e veprimeve",
+            "Imazhe",
+            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
+        ],
+        "Variablat" => [
+            "Renditja e veprimeve",
+            "Imazhe",
+            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
+            "Sekuencat"
+        ],
+        "Ciklet të avancuara" => [
+            "Renditja e veprimeve",
+            "Imazhe"
+        ],
     ];
 
     public function run()

@@ -9,7 +9,7 @@
         <img id="grass_1" src="{{ url('images/level/grass/grass_1.png') }}" width="40" height="40" />
         <img id="grass_2" src="{{ url('images/level/grass/grass_2.png') }}" width="40" height="40" />
         <img id="grass_3" src="{{ url('images/level/grass/grass_3.png') }}" width="40" height="40" />
-        @for ($i = 1; $i < 11; $i++)
+        @for ($i = 1; $i < 7; $i++)
             <img id="rock1_{{ $i }}" src='{{ url("images/level/obstacles/Rock1_$i.png") }}' width="40" height="40" />
         @endfor
         <img id="goal" src="{{ url('images/level/goal/goal.png') }}" width="40" height="40" />

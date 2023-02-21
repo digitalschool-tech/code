@@ -24,10 +24,9 @@
             </div>
         </div>
     </div>
-    <div class="h-[100vh] bg-no-repeat w-full bg-[url('{{ url('images/homepage/section.svg') }}')] ">
+    <div class="h-full pb-20 bg-no-repeat w-full bg-[url('{{ url('images/homepage/section.svg') }}')] ">
         <div class="container mx-auto px-4 h-full flex flex-col justify-start items-start">
-            @include("organisms.courses", ["title" => "Lëndë 1-4 (4+ vjet)"])
-            @include("organisms.courses", ["title" => "Lëndë 1-4 (4+ vjet)"])
+            @include("organisms.courses", ["title" => "Kodimi me Blloqe 9-18 vjet"])
         </div>
     </div>
 </div>

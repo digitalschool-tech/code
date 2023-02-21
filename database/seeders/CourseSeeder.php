@@ -14,16 +14,28 @@ class CourseSeeder extends Seeder
      */
 
     private $courses = [
-        "Lëndë 1" => [
+        "Renditja e veprimeve" => [
             "description" => "Hyrje në shkencën kompjuterike për lexuesit e hershëm"
         ],
-        "Lëndë 2" => [
+        "Imazhet" => [
             "description" => "Hyrje në shkenca kompjuterike për studentët që dinë të lexojnë"
         ],
-        "Lëndë 3" => [
+        "Ngjarjet" => [
             "description" => "Zhytuni edhe më thellë në programim ndërsa ndërtoni lojëra dhe histori interaktive"
         ],
-        "Lëndë 4" => [
+        "Ciklet" => [
+            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"'
+        ],
+        "Kushtet" => [
+            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"'
+        ],
+        "Funksione" => [
+            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"'
+        ],
+        "Variablat" => [
+            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"'
+        ],
+        "Ciklet të avancuara" => [
             "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"'
         ],
     ];

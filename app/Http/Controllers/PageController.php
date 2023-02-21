@@ -14,7 +14,17 @@ class PageController extends Controller
     }
 
     public static function homepage(){
-        $courses = course::all()->toArray();
+        $courses = course::with("lessons.levels")->get()->toArray();
+        foreach ($courses as &$course){
+            $level_count = 0;
+            foreach ($course["lessons"] as $lesson){
+                $level_count += count($lesson["levels"]);
+            }
+
+            $course["lesson_count"] = count($course['lessons']);
+            $course["level_count"] = $level_count;
+        }
+
         return view("pages.homepage", compact("courses"));
     }
 }

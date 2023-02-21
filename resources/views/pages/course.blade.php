@@ -19,7 +19,7 @@
                     @foreach ($course["lessons"] as $lesson)
                         <tr>
                             <td>{{ $lesson["name"] }}</td>
-                            <td>
+                            <td class="flex w-full">
                                 @foreach ($lesson["levels"] as $index => $level)
                                     <a href="/kursi/{{ $course['id'] }}/mesimi/{{ $lesson["id"] }}/niveli/{{ $level["id"] }}">
                                         <div class="w-8 h-8 rounded-full bg-purp-100 border-black-900 flex justify-center items-center border-2">

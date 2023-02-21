@@ -21,7 +21,7 @@ const grass_3 = document.getElementById("grass_3");
 const grasses = [grass_1, grass_2, grass_3];
 const obstacles = [];
 
-for(let i = 1; i < 11; i++){
+for(let i = 1; i < 7; i++){
     obstacles.push(document.getElementById("rock1_" + i ))
 }
 
@@ -178,7 +178,7 @@ function drawObstacleAt(x, y, obstacleIndex){
     if(obstaclesCombinationDone){
         obstacle = obstacles[obstacleCombination[obstacleIndex]];
     }else{
-        let obstacleType = Math.floor(Math.random() * 10);
+        let obstacleType = Math.floor(Math.random() * 6);
         obstacle = obstacles[obstacleType];
         obstacleCombination.push(obstacleType)
     }
