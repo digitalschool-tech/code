@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StorelevelRequest;
 use App\Http\Requests\UpdatelevelRequest;
 use App\Models\level;
+use App\Models\lesson;
 
 class LevelController extends Controller
 {
@@ -42,13 +43,19 @@ class LevelController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\level  $level
      * @return \Illuminate\Http\Response
      */
     public function show(level $level, $course_id, $lesson_id, $level_id)
     {
-        $level = level::findOrFail($level_id);
-        return view("pages.level", compact("level"));
+        $level = level::where("lesson_id", $lesson_id)->where("index", $level_id)->first();
+
+        if(empty($level)){
+            abort(404);
+        }
+
+        $lesson = lesson::where("id", $lesson_id)->with("levels")->first();
+        $levels = $lesson["levels"];
+        return view("pages.level", compact("level", "levels"));
     }
 
     /**

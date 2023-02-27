@@ -15,10 +15,12 @@ class CreateLevelsTable extends Migration
     {
         Schema::create('levels', function (Blueprint $table) {
             $table->id();
+            $table->string('index')->default("");
             $table->string('description')->default("");
             $table->string('player')->default("");
             $table->string('goal')->default("");
             $table->string('route')->default("");
+            $table->string('blocks')->default("");
             $table->foreignId('lesson_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });

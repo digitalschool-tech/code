@@ -602,12 +602,12 @@ video {
   z-index: 10;
 }
 
-.col-span-8 {
-  grid-column: span 8 / span 8;
-}
-
 .col-span-2 {
   grid-column: span 2 / span 2;
+}
+
+.col-span-8 {
+  grid-column: span 8 / span 8;
 }
 
 .m-0 {
@@ -641,8 +641,8 @@ video {
   margin-top: auto;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .mb-3 {
@@ -657,12 +657,20 @@ video {
   margin-top: 2.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .ml-auto {
   margin-left: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -673,20 +681,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -725,12 +721,12 @@ video {
   height: 2rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-\[100vh\] {
@@ -785,6 +781,18 @@ video {
 
 .w-\[320px\] {
   width: 320px;
+}
+
+.w-1\/6 {
+  width: 16.666667%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .min-w-\[100\%\] {
@@ -860,12 +868,20 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -963,6 +979,21 @@ video {
   background-color: rgb(234 235 245 / var(--tw-bg-opacity));
 }
 
+.bg-black-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(110 110 132 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-transparent {
+  --tw-gradient-from: transparent;
+  --tw-gradient-to: rgb(0 0 0 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .bg-clip-padding {
   background-clip: padding-box;
 }
@@ -988,14 +1019,14 @@ video {
   padding-bottom: 1rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .px-3 {
@@ -1027,6 +1058,10 @@ video {
   padding-right: 1.25rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pt-\[140px\] {
   padding-top: 140px;
 }
@@ -1037,6 +1072,10 @@ video {
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .text-left {
@@ -1061,6 +1100,11 @@ video {
 
 .text-\[10px\] {
   font-size: 10px;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-3xl {
@@ -1124,6 +1168,10 @@ video {
 
 .leading-\[39px\] {
   line-height: 39px;
+}
+
+.leading-\[38px\] {
+  line-height: 38px;
 }
 
 .leading-tight {
@@ -1223,12 +1271,6 @@ video {
 .card-dark-blue{
         background: linear-gradient(90deg, #000CFF 0%, #4d55ff 100%);
     }
-
-h2{
-    font-size: 24px !important;
-    font-weight: bold !important;
-    color: white;
-}
 
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);

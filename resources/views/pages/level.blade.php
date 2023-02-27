@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['style' => 'flex'])
 
 @section('content')
     <div style="display:none;">
@@ -14,7 +14,7 @@
         @endfor
         <img id="goal" src="{{ url('images/level/goal/goal.png') }}" width="40" height="40" />
     </div>
-    <div id="main" class="w-full h-full overflow-hidden" data-player="{{ $level["player"] }}" data-goal="{{ $level["goal"] }}" data-route="{{ $level["route"] }}">
+    <div id="main" class="w-full h-full overflow-hidden" data-player="{{ $level["player"] }}" data-goal="{{ $level["goal"] }}" data-route="{{ $level["route"] }}" data-blocks="{{ $level["blocks"] }}">
         <div class="w-full">
             <div class="w-full flex items-center h-10 px-6 bg-purp-200">
                 <p class="text-white-900 h-full border-b-4 border-white-900 flex items-center">Instruksionet</p>
@@ -44,6 +44,17 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="h-full w-1/6 bg-black-500 flex flex-col items-center gap-2">
+        <div class="w-full flex items-center h-10 bg-purp-200 mb-4">
+            <p class="text-white-900 h-full border-b-4 border-white-900 flex items-center">Levels</p>
+        </div>
+        @foreach($levels as $index => $level)
+            <div class="w-4/5 rounded-full bg-gray-600 h-10 flex justify-between">
+                <p class="pl-4 text-white-900 leading-[38px]">Done</p>
+                <div class="h-10 w-10 rounded-full bg-white-900 flex justify-center items-center">{{ $index + 1 }}</div>
+            </div>
+        @endforeach
     </div>
 @endsection
 

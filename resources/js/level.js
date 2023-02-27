@@ -1,13 +1,16 @@
 import * as Blockly from 'blockly';
 import 'blockly/blocks'
 import 'blockly/core'
+
 import { translate } from "./translations";
+import * as Sq from "./blockly/sq";
 import * as Forward from "./blockly/blocks/forward";
 import * as Start from "./blockly/blocks/start";
 import * as Turn from "./blockly/blocks/turn";
 
 import { javascriptGenerator } from 'blockly/javascript'
 import { dropWhile } from 'lodash';
+Blockly.setLocale(Sq);
 
 const playerDown = document.getElementById("down");
 const playerUp = document.getElementById("up");
@@ -20,6 +23,9 @@ const grass_2 = document.getElementById("grass_2");
 const grass_3 = document.getElementById("grass_3");
 const grasses = [grass_1, grass_2, grass_3];
 const obstacles = [];
+const main = document.getElementById("main");
+const blocks = JSON.parse(main.getAttribute("data-blocks"))
+
 
 for(let i = 1; i < 7; i++){
     obstacles.push(document.getElementById("rock1_" + i ))
@@ -41,6 +47,24 @@ var toolbox = {
 			"type": "turn"
 		}
 	]
+}
+blocks.forEach((block) => {
+    toolbox.contents.push(getBlock(block))
+})
+
+function getBlock(block_id){
+    switch (block_id){
+        case "loop_1":
+            return {
+                "kind": "block",
+                "type": "controls_repeat_ext"
+            };
+        case "math_1":
+            return {
+                "kind": "block",
+                "type": "math_number"
+            };
+    }
 }
 
 
@@ -65,10 +89,45 @@ button.addEventListener('click', () => {
 
     setTimeout(() => {
         let jsCode = javascriptGenerator.workspaceToCode(workspace);
-        eval(jsCode)
+        let functions = splitFunctions(jsCode);
+        console.log(functions, jsCode)
+        for (let i = 0; i < functions.length; i++) {
+            setTimeout(() => {
+                eval(functions[i])
+            }, (1000 * i))
+        }
+        setTimeout(() => {
+            checkWin();
+        }, (1000 * functions.length))
     }, 300)
-
 })
+
+function splitFunctions(str) {
+    // Use a regular expression to match all function calls with or without arguments
+    const regex = /\w+\((?:(?:"(?:\\.|[^"\\])*")|(?:'(?:\\.|[^'\\])*')|[^)]*)*\)/g;
+    const matches = str.match(regex);
+
+    // If there are no matches, return an empty array
+    if (!matches) {
+        return [];
+    }
+
+    return matches;
+}
+
+function countFunctions(str) {
+    // Use a regular expression to match all function calls
+    const regex = /\w+\(\)/g;
+    const matches = str.match(regex);
+
+    // If there are no matches, return 0
+    if (!matches) {
+        return 0;
+    }
+
+    // Otherwise, return the number of matches
+    return matches.length;
+}
 
 function addBlock(Blockly, Block) {
 	Blockly.defineBlocksWithJsonArray([Block.Structure()]);
@@ -105,7 +164,6 @@ function startCanvas() {
             ctx.drawImage(grass, x * 40, y * 40);
         }
 	}
-    console.log(grassCombination.length)
 }
 
 let playerX;
@@ -121,7 +179,6 @@ start()
 let space = 0;
 
 function start(){
-    let main = document.getElementById("main");
 
     let playerPos = JSON.parse(main.getAttribute("data-player"))
     playerX = playerPos[0];
@@ -140,7 +197,6 @@ function start(){
 }
 
 function drawRoute(){
-    console.log(routes)
     let obstacleCords = getObstacleCords(routes)
     let obstacleIndex = 0;
     obstacleCords.forEach((cord) => {
@@ -182,7 +238,6 @@ function drawObstacleAt(x, y, obstacleIndex){
         obstacle = obstacles[obstacleType];
         obstacleCombination.push(obstacleType)
     }
-    console.log("ob")
     ctx.drawImage(obstacle, (40 * x), (40 * y));
 }
 
@@ -197,8 +252,10 @@ function calcPlayerToGoalDistance(){
 function checkWin(){
     let distance = calcPlayerToGoalDistance();
     if(distance[0] == 0 && distance[1] == 0 && finished == false){
-        // alert("You WON!")
+        alert("You WON!")
         finished = true;
+    }else{
+        alert("Try again!")
     }
 }
 
@@ -206,7 +263,6 @@ function drawPlayer() {
 	startCanvas()
     drawRoute();
     drawGoalAt()
-    checkWin()
     ctx.fillStyle = "#000";
 	ctx.beginPath();
 	if (playerDirection == 1) {
@@ -223,43 +279,37 @@ function drawPlayer() {
 }
 
 function move_forward(){
-	setTimeout(() => {
-		for (let index = 0; index < 40; index++) {
-			setTimeout(() =>{
-                switch (playerDirection){
-                    case 0:
-                        playerY -= .025;
-                        break
-                    case 1:
-                        playerX += .025;
-                        break
-                    case 2:
-                        playerY += .025;
-                        break
-                    case 3:
-                        playerX -= .025;
-                        break
-                }
-				drawPlayer();
-			}, 200);
-		}
-	}, timeout * 1000)
-	timeout++;
+    for (let index = 0; index < 40; index++) {
+        setTimeout(() =>{
+            switch (playerDirection){
+                case 0:
+                    playerY -= .025;
+                    break
+                case 1:
+                    playerX += .025;
+                    break
+                case 2:
+                    playerY += .025;
+                    break
+                case 3:
+                    playerX -= .025;
+                    break
+            }
+            drawPlayer();
+        }, 200);
+    }
 }
 
 function turn(direction){
-	setTimeout(() => {
-		if(direction == "R"){
-			playerDirection++;
-		}else{
-			playerDirection--;
-		}
+    if(direction == "R"){
+        playerDirection++;
+    }else{
+        playerDirection--;
+    }
 
-        if(playerDirection < 0){
-            playerDirection = 3;
-        }
+    if(playerDirection < 0){
+        playerDirection = 3;
+    }
 
-		drawPlayer();
-	}, timeout * 1000)
-	timeout++;
+    drawPlayer();
 }

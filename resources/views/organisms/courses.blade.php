@@ -1,13 +1,15 @@
-<div class="mt-10">
-    <h2 class="mb-4">{{ $title }}</h2>
-    <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        @if(!empty($courses))
-            @php
-                $styles = ["card-purple", "card-red", "card-green", "card-blue", "card-yellow", "card-pink", "card-orange", "card-dark-blue"];
-            @endphp
-            @foreach($courses as $course)
-                @include("atoms.course")
-            @endforeach
-         @endif
+<div class="container mx-auto px-4 pb-4 rounded-2xl h-full flex flex-col justify-start items-start gradient bg-gradient-to-b from-transparent to-gray-200">
+    <div class="mt-10">
+        <h2 class="mb-10 text-white-900 font-bold text-4xl text-center">{{ $title }}</h2>
+        <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            @if(!empty($courses))
+                @php
+                    $styles = ["card-purple", "card-red", "card-green", "card-blue", "card-yellow", "card-pink", "card-orange", "card-dark-blue"];
+                @endphp
+                @foreach($courses as $course)
+                    @include("atoms.course")
+                @endforeach
+             @endif
+        </div>
     </div>
 </div>

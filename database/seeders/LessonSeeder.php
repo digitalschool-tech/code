@@ -16,8 +16,8 @@ class LessonSeeder extends Seeder
 
     private $courses = [
         "Renditja e veprimeve" => [
-            "Renditja e veprimeve",
-            "Imazhe",
+            "Gjeni portalin",
+            "Labirintet",
             "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
             "Sekuencat"
         ],

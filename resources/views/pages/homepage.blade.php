@@ -25,9 +25,7 @@
         </div>
     </div>
     <div class="h-full pb-20 bg-no-repeat w-full bg-[url('{{ url('images/homepage/section.svg') }}')] ">
-        <div class="container mx-auto px-4 h-full flex flex-col justify-start items-start">
-            @include("organisms.courses", ["title" => "Kodimi me Blloqe 9-18 vjet"])
-        </div>
+        @include("organisms.courses", ["title" => "Kodimi me Blloqe 9-18 vjet"])
     </div>
 </div>
 
