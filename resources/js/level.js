@@ -25,7 +25,11 @@ const grasses = [grass_1, grass_2, grass_3];
 const obstacles = [];
 const main = document.getElementById("main");
 const blocks = JSON.parse(main.getAttribute("data-blocks"))
-
+const modalLost = document.getElementById('modal-lost');
+const modalWon = document.getElementById('modal-won');
+let failed = false;
+let obstacleCords = [];
+let obstacleCordsString = [];
 
 for(let i = 1; i < 7; i++){
     obstacles.push(document.getElementById("rock1_" + i ))
@@ -90,11 +94,14 @@ button.addEventListener('click', () => {
     setTimeout(() => {
         let jsCode = javascriptGenerator.workspaceToCode(workspace);
         let functions = splitFunctions(jsCode);
-        console.log(functions, jsCode)
         for (let i = 0; i < functions.length; i++) {
             setTimeout(() => {
                 eval(functions[i])
+                checkLoss();
             }, (1000 * i))
+            setTimeout(() => {
+                checkLoss();
+            }, ((1000 * i) + 500))
         }
         setTimeout(() => {
             checkWin();
@@ -177,14 +184,15 @@ let routes = [];
 start()
 
 let space = 0;
-
+let playerPos;
+let goalPos;
 function start(){
 
-    let playerPos = JSON.parse(main.getAttribute("data-player"))
+    playerPos = JSON.parse(main.getAttribute("data-player"))
     playerX = playerPos[0];
     playerY = playerPos[1];
 
-    let goalPos = JSON.parse(main.getAttribute("data-goal"))
+    goalPos = JSON.parse(main.getAttribute("data-goal"))
     goalX = goalPos[0];
     goalY = goalPos[1];
     playerDirection = 1;
@@ -197,7 +205,10 @@ function start(){
 }
 
 function drawRoute(){
-    let obstacleCords = getObstacleCords(routes)
+    obstacleCords = getObstacleCords(routes)
+    obstacleCordsString = nestedArrayToString(obstacleCords);
+    delete obstacleCordsString[playerPos.join[","]]
+    delete obstacleCordsString[goalPos.join[","]]
     let obstacleIndex = 0;
     obstacleCords.forEach((cord) => {
         drawObstacleAt(...cord, obstacleIndex)
@@ -252,12 +263,27 @@ function calcPlayerToGoalDistance(){
 function checkWin(){
     let distance = calcPlayerToGoalDistance();
     if(distance[0] == 0 && distance[1] == 0 && finished == false){
-        alert("You WON!")
         finished = true;
+        modalWon.classList.remove('hidden')
     }else{
-        alert("Try again!")
+        if(!failed){
+            modalLost.classList.remove('hidden')
+        }
     }
 }
+
+function checkLoss(){
+    let currentStringPos = [Math.round(playerX), Math.round(playerY)].join(',');
+    if(obstacleCordsString.includes(currentStringPos)){
+        failed = true;
+        modalLost.classList.remove('hidden')
+    }
+}
+
+function nestedArrayToString(nestedArray) {
+    return nestedArray.map(pair => pair.join(','));
+}
+
 
 function drawPlayer() {
 	startCanvas()
@@ -279,24 +305,26 @@ function drawPlayer() {
 }
 
 function move_forward(){
-    for (let index = 0; index < 40; index++) {
-        setTimeout(() =>{
-            switch (playerDirection){
-                case 0:
-                    playerY -= .025;
-                    break
-                case 1:
-                    playerX += .025;
-                    break
-                case 2:
-                    playerY += .025;
-                    break
-                case 3:
-                    playerX -= .025;
-                    break
-            }
-            drawPlayer();
-        }, 200);
+    if(!failed){
+        for (let index = 0; index < 40; index++) {
+            setTimeout(() =>{
+                switch (playerDirection){
+                    case 0:
+                        playerY -= .025;
+                        break
+                    case 1:
+                        playerX += .025;
+                        break
+                    case 2:
+                        playerY += .025;
+                        break
+                    case 3:
+                        playerX -= .025;
+                        break
+                }
+                drawPlayer();
+            }, 200);
+        }
     }
 }
 

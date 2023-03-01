@@ -21200,6 +21200,11 @@ var grasses = [grass_1, grass_2, grass_3];
 var obstacles = [];
 var main = document.getElementById("main");
 var blocks = JSON.parse(main.getAttribute("data-blocks"));
+var modalLost = document.getElementById('modal-lost');
+var modalWon = document.getElementById('modal-won');
+var failed = false;
+var obstacleCords = [];
+var obstacleCordsString = [];
 
 for (var i = 1; i < 7; i++) {
   obstacles.push(document.getElementById("rock1_" + i));
@@ -21256,12 +21261,15 @@ button.addEventListener('click', function () {
   setTimeout(function () {
     var jsCode = blockly_javascript__WEBPACK_IMPORTED_MODULE_8__.javascriptGenerator.workspaceToCode(workspace);
     var functions = splitFunctions(jsCode);
-    console.log(functions, jsCode);
 
     var _loop = function _loop(_i) {
       setTimeout(function () {
         eval(functions[_i]);
+        checkLoss();
       }, 1000 * _i);
+      setTimeout(function () {
+        checkLoss();
+      }, 1000 * _i + 500);
     };
 
     for (var _i = 0; _i < functions.length; _i++) {
@@ -21345,12 +21353,14 @@ var finished;
 var routes = [];
 start();
 var space = 0;
+var playerPos;
+var goalPos;
 
 function start() {
-  var playerPos = JSON.parse(main.getAttribute("data-player"));
+  playerPos = JSON.parse(main.getAttribute("data-player"));
   playerX = playerPos[0];
   playerY = playerPos[1];
-  var goalPos = JSON.parse(main.getAttribute("data-goal"));
+  goalPos = JSON.parse(main.getAttribute("data-goal"));
   goalX = goalPos[0];
   goalY = goalPos[1];
   playerDirection = 1;
@@ -21361,7 +21371,10 @@ function start() {
 }
 
 function drawRoute() {
-  var obstacleCords = getObstacleCords(routes);
+  obstacleCords = getObstacleCords(routes);
+  obstacleCordsString = nestedArrayToString(obstacleCords);
+  delete obstacleCordsString[playerPos.join[","]];
+  delete obstacleCordsString[goalPos.join[","]];
   var obstacleIndex = 0;
   obstacleCords.forEach(function (cord) {
     drawObstacleAt.apply(void 0, _toConsumableArray(cord).concat([obstacleIndex]));
@@ -21435,11 +21448,28 @@ function checkWin() {
   var distance = calcPlayerToGoalDistance();
 
   if (distance[0] == 0 && distance[1] == 0 && finished == false) {
-    alert("You WON!");
     finished = true;
+    modalWon.classList.remove('hidden');
   } else {
-    alert("Try again!");
+    if (!failed) {
+      modalLost.classList.remove('hidden');
+    }
   }
+}
+
+function checkLoss() {
+  var currentStringPos = [Math.round(playerX), Math.round(playerY)].join(',');
+
+  if (obstacleCordsString.includes(currentStringPos)) {
+    failed = true;
+    modalLost.classList.remove('hidden');
+  }
+}
+
+function nestedArrayToString(nestedArray) {
+  return nestedArray.map(function (pair) {
+    return pair.join(',');
+  });
 }
 
 function drawPlayer() {
@@ -21461,28 +21491,30 @@ function drawPlayer() {
 }
 
 function move_forward() {
-  for (var index = 0; index < 40; index++) {
-    setTimeout(function () {
-      switch (playerDirection) {
-        case 0:
-          playerY -= .025;
-          break;
+  if (!failed) {
+    for (var index = 0; index < 40; index++) {
+      setTimeout(function () {
+        switch (playerDirection) {
+          case 0:
+            playerY -= .025;
+            break;
 
-        case 1:
-          playerX += .025;
-          break;
+          case 1:
+            playerX += .025;
+            break;
 
-        case 2:
-          playerY += .025;
-          break;
+          case 2:
+            playerY += .025;
+            break;
 
-        case 3:
-          playerX -= .025;
-          break;
-      }
+          case 3:
+            playerX -= .025;
+            break;
+        }
 
-      drawPlayer();
-    }, 200);
+        drawPlayer();
+      }, 200);
+    }
   }
 }
 

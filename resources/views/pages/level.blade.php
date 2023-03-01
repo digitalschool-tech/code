@@ -56,6 +56,8 @@
             </div>
         @endforeach
     </div>
+    @include("organisms.modal-won")
+    @include("organisms.modal-lost")
 @endsection
 
 @section('scripts')

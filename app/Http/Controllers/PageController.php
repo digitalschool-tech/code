@@ -24,6 +24,7 @@ class PageController extends Controller
             $course["lesson_count"] = count($course['lessons']);
             $course["level_count"] = $level_count;
         }
+        $courses = collect($courses)->groupBy("group")->toArray();
 
         return view("pages.homepage", compact("courses"));
     }

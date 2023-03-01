@@ -1,4 +1,4 @@
-<div class="w-full group bg-white-900 rounded-2xl flex relative overflow-hidden {{ $styles[$loop->index] }} {{ in_array($loop->index, [0, 5, 6]) ? "col-span-2" : "" }}">
+<div class="w-full group bg-white-900 rounded-2xl flex relative overflow-hidden {{ $styles[random_int(0, 7)] }} {{ in_array($loop->index, [0, 5, 6]) ? "col-span-2" : "" }}">
     <img class="h-auto min-w-[100%] absolute -translate-x-2/3" src="{{ url('images/courses/course.svg') }}" alt=""/>
     <div class="w-1/3"></div>
     <div class="w-2/3 ml-2 flex flex-col py-4 pr-5 text-white-900">
