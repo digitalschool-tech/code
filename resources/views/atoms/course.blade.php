@@ -14,7 +14,7 @@
                 <span>{{ $course["level_count"] }} Levels</span>
             </div>
         </div>
-        <a href="./kursi/{{ $course["id"] }}" class="w-full bg-white-900 flex justify-center items-center font-semibold group-hover:translate-y-2 translate-y-10 rounded-2xl h-8 transition-all duration-300 cursor-pointer">
+        <a href="{{ route('course.show', ['id' => $course['id']]) }}" class="w-full bg-white-900 flex justify-center items-center font-semibold group-hover:translate-y-2 translate-y-10 rounded-2xl h-8 transition-all duration-300 cursor-pointer">
             <p class="text-center text-black-900 text-[12px]">Start Now</p>
         </a>
     </div>

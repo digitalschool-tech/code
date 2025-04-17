@@ -23,6 +23,7 @@
         "tailwindcss": "^3.1.8"
     },
     "dependencies": {
-        "blockly": "^9.1.0"
+        "blockly": "^9.1.0",
+        "phaser": "^3.88.2"
     }
 }

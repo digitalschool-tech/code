@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Providers\RouteServiceProvider;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\ValidationException;
 
 class LoginController extends Controller
 {
@@ -19,14 +20,12 @@ class LoginController extends Controller
     |
     */
 
-    use AuthenticatesUsers;
-
     /**
      * Where to redirect users after login.
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = '/dashboard';
 
     /**
      * Create a new controller instance.
@@ -36,5 +35,73 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+    
+    /**
+     * Show the application's login form.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function showLoginForm(Request $request)
+    {
+        $redirect = $request->input('redirect');
+        return view('auth.login', compact('redirect'));
+    }
+    
+    /**
+     * Handle a login request to the application.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     *
+     * @throws \Illuminate\Validation\ValidationException
+     */
+    public function login(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|string|email',
+            'password' => 'required|string',
+        ]);
+
+        if (Auth::attempt($request->only('email', 'password'), $request->filled('remember'))) {
+            $request->session()->regenerate();
+
+            return redirect()->intended($this->getRedirectPath($request));
+        }
+
+        throw ValidationException::withMessages([
+            'email' => [trans('auth.failed')],
+        ]);
+    }
+    
+    /**
+     * Log the user out of the application.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function logout(Request $request)
+    {
+        Auth::logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect('/');
+    }
+    
+    /**
+     * Get the post login redirect path.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return string
+     */
+    protected function getRedirectPath(Request $request)
+    {
+        if ($request->has('redirect')) {
+            return '/' . $request->input('redirect');
+        }
+        
+        return $this->redirectTo;
     }
 }

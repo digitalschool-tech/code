@@ -2,19 +2,38 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class level extends Model
+class Level extends Model
 {
-    use HasFactory;
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
     protected $fillable = [
         'name',
         'description',
-        'lesson_id'
+        'content',
+        'lesson_id',
+        'index'
     ];
 
-    public function level(){
-        return $this->belongsTo(level::class);
+    /**
+     * Get the lesson that owns this level.
+     */
+    public function lesson(): BelongsTo
+    {
+        return $this->belongsTo(Lesson::class);
+    }
+
+    /**
+     * Get the progress records for this level.
+     */
+    public function progress(): HasMany
+    {
+        return $this->hasMany(UserLevelProgress::class);
     }
 }

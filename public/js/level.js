@@ -21449,10 +21449,155 @@ function checkWin() {
 
   if (distance[0] == 0 && distance[1] == 0 && finished == false) {
     finished = true;
-    modalWon.classList.remove('hidden');
+    modalWon.classList.remove('hidden'); // Get level data
+
+    var courseId = window.location.pathname.split('/')[2];
+    var lessonId = window.location.pathname.split('/')[4];
+    var levelId = window.location.pathname.split('/')[6]; // Get Blockly code and commands count if available
+
+    var blocklyCode = '';
+    var commandsUsed = 0;
+
+    try {
+      // Use the new recommended method to get the main workspace
+      if (typeof blockly__WEBPACK_IMPORTED_MODULE_0__ !== 'undefined') {
+        var _workspace = blockly__WEBPACK_IMPORTED_MODULE_0__.getMainWorkspace();
+
+        if (_workspace) {
+          // Count blocks/commands used
+          commandsUsed = _workspace.getAllBlocks(false).length; // Update the commands used count in the modal
+
+          var commandsUsedElement = document.getElementById('commands-used-value');
+
+          if (commandsUsedElement) {
+            commandsUsedElement.textContent = commandsUsed;
+          } // Check if Blockly.JavaScript is available
+
+
+          if (blockly__WEBPACK_IMPORTED_MODULE_0__.JavaScript) {
+            blocklyCode = blockly__WEBPACK_IMPORTED_MODULE_0__.JavaScript.workspaceToCode(_workspace);
+          } else if (window.javascriptGenerator) {
+            // Alternative approach if using newer Blockly versions
+            blocklyCode = window.javascriptGenerator.workspaceToCode(_workspace);
+          }
+        }
+      }
+    } catch (error) {
+      console.error('Error accessing Blockly workspace:', error);
+    } // Send completion data to server
+
+
+    fetch("/course/".concat(courseId, "/lesson/").concat(lessonId, "/level/").concat(levelId, "/complete"), {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+      },
+      body: JSON.stringify({
+        code: blocklyCode || 'No code available',
+        score: 100,
+        // You can calculate this based on attempts, time, etc.
+        commands_used: commandsUsed,
+        completed: true
+      })
+    }).then(function (response) {
+      return response.json();
+    }).then(function (data) {
+      console.log('Level completed:', data); // Update stats in the modal with the data from server
+
+      if (data.progress) {
+        // Update commands used
+        var _commandsUsedElement = document.getElementById('commands-used-value');
+
+        if (_commandsUsedElement) {
+          _commandsUsedElement.textContent = data.progress.commands_used || commandsUsed;
+        } // Update code quality using ID
+
+
+        var codeQualityElement = document.getElementById('code-quality-value');
+
+        if (codeQualityElement) {
+          codeQualityElement.textContent = data.progress.code_quality || 'Good';
+        } // Update points earned using ID
+
+
+        var pointsElement = document.getElementById('points-earned-value');
+
+        if (pointsElement) {
+          pointsElement.textContent = '+' + (data.progress.points_earned || 50);
+        }
+      } // If next level is available, show a button to proceed
+
+
+      if (data.nextLevel) {
+        // Get container for next level button
+        var nextLevelContainer = document.getElementById('next-level-container');
+
+        if (nextLevelContainer) {
+          // Clear any existing content
+          nextLevelContainer.innerHTML = ''; // Create a new button
+
+          var nextLevelBtn = document.createElement('a');
+          nextLevelBtn.href = data.nextLevel.url;
+          nextLevelBtn.className = 'py-2.5 px-6 bg-[#7BFF00] hover:bg-opacity-90 text-[#001E5F] font-bold rounded-lg transition-colors flex items-center gap-2';
+          nextLevelBtn.innerHTML = "\n                        Next Level\n                        <svg class=\"w-4 h-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\"></path>\n                        </svg>\n                    "; // Add the button to the container
+
+          nextLevelContainer.appendChild(nextLevelBtn);
+        }
+      }
+    })["catch"](function (error) {
+      console.error('Error:', error);
+    });
   } else {
     if (!failed) {
-      modalLost.classList.remove('hidden');
+      failed = true;
+      modalLost.classList.remove('hidden'); // Get level data for failed attempt tracking
+
+      var _courseId = window.location.pathname.split('/')[2];
+      var _lessonId = window.location.pathname.split('/')[4];
+      var _levelId = window.location.pathname.split('/')[6]; // Get current Blockly code even though it failed
+
+      var _blocklyCode = '';
+      var _commandsUsed = 0;
+
+      try {
+        if (typeof blockly__WEBPACK_IMPORTED_MODULE_0__ !== 'undefined') {
+          var _workspace2 = blockly__WEBPACK_IMPORTED_MODULE_0__.getMainWorkspace();
+
+          if (_workspace2) {
+            // Count blocks/commands used
+            _commandsUsed = _workspace2.getAllBlocks(false).length;
+
+            if (blockly__WEBPACK_IMPORTED_MODULE_0__.JavaScript) {
+              _blocklyCode = blockly__WEBPACK_IMPORTED_MODULE_0__.JavaScript.workspaceToCode(_workspace2);
+            } else if (window.javascriptGenerator) {
+              _blocklyCode = window.javascriptGenerator.workspaceToCode(_workspace2);
+            }
+          }
+        }
+      } catch (error) {
+        console.error('Error accessing Blockly workspace:', error);
+      } // Track the failed attempt
+
+
+      fetch("/course/".concat(_courseId, "/lesson/").concat(_lessonId, "/level/").concat(_levelId, "/attempt"), {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+        },
+        body: JSON.stringify({
+          code: _blocklyCode || 'No code available',
+          commands_used: _commandsUsed,
+          completed: false
+        })
+      }).then(function (response) {
+        return response.json();
+      }).then(function (data) {
+        console.log('Attempt recorded:', data);
+      })["catch"](function (error) {
+        console.error('Error recording attempt:', error);
+      });
     }
   }
 }

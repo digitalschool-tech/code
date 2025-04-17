@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap);
+@config './tailwind.config.js';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fi-sidebar {
+    background: linear-gradient(to bottom, #ec4899, #9333ea);
+}
+
+.fi-sidebar-item {
+    color: white !important;
+}
+
+.fi-sidebar-item:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.fi-sidebar-item-active {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.fi-main {
+    background-color: #f9fafb;
+}
+
+.fi-header {
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+} 
+
+.fi-modal-window {
+    /* Force a light background for the modal regardless of dark mode */
+    background-color: white !important;
+    /* You can also adjust the ring color or shadows as needed */
+    border-color: #1F2937 !important; /* example: using Tailwind's gray-800 instead */
+}
+
+/* Force the modal to use a light background and accept pointer events */
+.fi-modal-window {
+    background-color: #ffffff !important;
+    pointer-events: auto !important;
+}

@@ -51,3 +51,131 @@
         background: linear-gradient(90deg, #000CFF 0%, #4d55ff 100%);
     }
 }
+
+/* Base styles for all house character images */
+.house-icon {
+  /* Apply multiple drop-shadows to create a complete outline */
+  filter: drop-shadow(1px 0 0 white) 
+          drop-shadow(-1px 0 0 white)
+          drop-shadow(0 1px 0 white)
+          drop-shadow(0 -1px 0 white);
+}
+
+/* Enhanced version with diagonal shadows for smoother corners */
+.house-icon-smooth {
+  filter: drop-shadow(1px 0 0 white) 
+          drop-shadow(-1px 0 0 white)
+          drop-shadow(0 1px 0 white)
+          drop-shadow(0 -1px 0 white)
+          drop-shadow(1px 1px 0 white)
+          drop-shadow(-1px -1px 0 white)
+          drop-shadow(1px -1px 0 white)
+          drop-shadow(-1px 1px 0 white);
+}
+
+/* Colored outline versions for each house */
+.hipsters-outline {
+  filter: drop-shadow(1px 0 0 #7BFF00) 
+          drop-shadow(-1px 0 0 #7BFF00)
+          drop-shadow(0 1px 0 #7BFF00)
+          drop-shadow(0 -1px 0 #7BFF00);
+}
+
+.speedsters-outline {
+  filter: drop-shadow(1px 0 0 #FF5252) 
+          drop-shadow(-1px 0 0 #FF5252)
+          drop-shadow(0 1px 0 #FF5252)
+          drop-shadow(0 -1px 0 #FF5252);
+}
+
+.shadows-outline {
+  filter: drop-shadow(1px 0 0 #A034D9) 
+          drop-shadow(-1px 0 0 #A034D9)
+          drop-shadow(0 1px 0 #A034D9)
+          drop-shadow(0 -1px 0 #A034D9);
+}
+
+.octopus-outline {
+  filter: drop-shadow(1px 0 0 #00A0FF) 
+          drop-shadow(-1px 0 0 #00A0FF)
+          drop-shadow(0 1px 0 #00A0FF)
+          drop-shadow(0 -1px 0 #00A0FF);
+}
+
+/* Thicker outline version (3px) */
+.thick-outline {
+  filter: drop-shadow(3px 0 0 white) 
+          drop-shadow(-3px 0 0 white)
+          drop-shadow(0 3px 0 white)
+          drop-shadow(0 -3px 0 white)
+          drop-shadow(2px 2px 0 white)
+          drop-shadow(-2px -2px 0 white)
+          drop-shadow(2px -2px 0 white)
+          drop-shadow(-2px 2px 0 white);
+}
+
+/* Basic outline effect for all house icons */
+.house-outline {
+  filter: drop-shadow(1px 0 0 white) 
+          drop-shadow(-1px 0 0 white)
+          drop-shadow(0 1px 0 white)
+          drop-shadow(0 -1px 0 white);
+  transition: filter 0.3s ease;
+}
+
+/* Thicker outline for hover state */
+.house-outline-thick {
+  filter: drop-shadow(2px 0 0 white) 
+          drop-shadow(-2px 0 0 white)
+          drop-shadow(0 2px 0 white)
+          drop-shadow(0 -2px 0 white)
+          drop-shadow(1.5px 1.5px 0 white)
+          drop-shadow(-1.5px -1.5px 0 white)
+          drop-shadow(1.5px -1.5px 0 white)
+          drop-shadow(-1.5px 1.5px 0 white);
+}
+
+/* Custom house-specific outlines with their brand colors */
+.house-hipsters-outline:hover {
+  filter: drop-shadow(2px 0 0 #7BFF00) 
+          drop-shadow(-2px 0 0 #7BFF00)
+          drop-shadow(0 2px 0 #7BFF00)
+          drop-shadow(0 -2px 0 #7BFF00)
+          drop-shadow(1.5px 1.5px 0 #7BFF00)
+          drop-shadow(-1.5px -1.5px 0 #7BFF00)
+          drop-shadow(1.5px -1.5px 0 #7BFF00)
+          drop-shadow(-1.5px 1.5px 0 #7BFF00);
+}
+
+.house-speedsters-outline:hover {
+  filter: drop-shadow(2px 0 0 #FF5252) 
+          drop-shadow(-2px 0 0 #FF5252)
+          drop-shadow(0 2px 0 #FF5252)
+          drop-shadow(0 -2px 0 #FF5252)
+          drop-shadow(1.5px 1.5px 0 #FF5252)
+          drop-shadow(-1.5px -1.5px 0 #FF5252)
+          drop-shadow(1.5px -1.5px 0 #FF5252)
+          drop-shadow(-1.5px 1.5px 0 #FF5252);
+}
+
+.house-shadows-outline:hover {
+  filter: drop-shadow(2px 0 0 #A034D9) 
+          drop-shadow(-2px 0 0 #A034D9)
+          drop-shadow(0 2px 0 #A034D9)
+          drop-shadow(0 -2px 0 #A034D9)
+          drop-shadow(1.5px 1.5px 0 #A034D9)
+          drop-shadow(-1.5px -1.5px 0 #A034D9)
+          drop-shadow(1.5px -1.5px 0 #A034D9)
+          drop-shadow(-1.5px 1.5px 0 #A034D9);
+}
+
+.house-engineer-outline:hover {
+  filter: drop-shadow(2px 0 0 #00A0FF) 
+          drop-shadow(-2px 0 0 #00A0FF)
+          drop-shadow(0 2px 0 #00A0FF)
+          drop-shadow(0 -2px 0 #00A0FF)
+          drop-shadow(1.5px 1.5px 0 #00A0FF)
+          drop-shadow(-1.5px -1.5px 0 #00A0FF)
+          drop-shadow(1.5px -1.5px 0 #00A0FF)
+          drop-shadow(-1.5px 1.5px 0 #00A0FF);
+}

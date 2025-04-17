@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\course;
-use App\Models\lesson;
+use App\Models\Course;
+use App\Models\Lesson;
 use Illuminate\Database\Seeder;
 
 class LessonSeeder extends Seeder
@@ -15,59 +15,35 @@ class LessonSeeder extends Seeder
      */
 
     private $courses = [
-        "Renditja e veprimeve" => [
+        "Course 1" => [
             "Gjeni portalin",
             "Labirintet",
             "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
             "Sekuencat"
         ],
-        "Imazhet" => [
+        "Course 2" => [
             "Renditja e veprimeve",
             "Imazhe",
         ],
-        "Ngjarjet" => [
-            "Renditja e veprimeve",
-            "Imazhe",
-            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
-        ],
-        "Ciklet" => [
-            "Renditja e veprimeve",
-            "Imazhe",
-            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
-            "Sekuencat"
-        ],
-        "Kushtet" => [
-            "Renditja e veprimeve",
-            "Imazhe",
-            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
-            "Sekuencat",
-            "Imazhe",
-            "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
-            "Sekuencat"
-        ],
-        "Funksione" => [
+        "Course 3" => [
             "Renditja e veprimeve",
             "Imazhe",
             "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
         ],
-        "Variablat" => [
+        "Course 4" => [
             "Renditja e veprimeve",
             "Imazhe",
             "Jigsaw: Mësoni të tërhiqni dhe të lëshoni",
             "Sekuencat"
-        ],
-        "Ciklet të avancuara" => [
-            "Renditja e veprimeve",
-            "Imazhe"
         ],
     ];
 
     public function run()
     {
         foreach ($this->courses as $course_title => $course){
-            $course_relation = course::where('name', $course_title)->get()->first();
+            $course_relation = Course::where('name', $course_title)->get()->first();
             foreach($course as $lesson){
-                lesson::create(['name' => $lesson, "course_id" => $course_relation->id]);
+                Lesson::create(['name' => $lesson, "course_id" => $course_relation->id]);
             }
         }
     }

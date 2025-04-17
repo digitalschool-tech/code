@@ -25,19 +25,5 @@ class CreateAdminsSeeder extends Seeder
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
-
-        $ardit->assignRole('admin');
-
-        $denis = User::create([
-            'name' => 'Denis Hoti',
-            'email' => 'denis@msoshqip.tech',
-            'email_verified_at' => Carbon::now(),
-            'password' => Hash::make('DenisHoti2@2@'),
-            'remember_token' => null,
-            'created_at' => Carbon::now(),
-            'updated_at' => Carbon::now(),
-        ]);
-
-        $denis->assignRole('admin');
     }
 }

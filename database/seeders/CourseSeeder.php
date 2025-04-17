@@ -14,74 +14,18 @@ class CourseSeeder extends Seeder
      */
 
     private $courses = [
-        "Renditja e veprimeve" => [
+        "Course 1" => [
             "description" => "Hyrje në shkencën kompjuterike për lexuesit e hershëm",
-            "group" => 1
         ],
-        "Imazhet" => [
+        "Course 2" => [
             "description" => "Hyrje në shkenca kompjuterike për studentët që dinë të lexojnë",
-            "group" => 1
         ],
-        "Ngjarjet" => [
+        "Course 3" => [
             "description" => "Zhytuni edhe më thellë në programim ndërsa ndërtoni lojëra dhe histori interaktive",
-            "group" => 1
         ],
-        "Ciklet" => [
+        "Course 4" => [
             "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 1
-        ],
-        "Kushtet" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 1
-        ],
-        "Funksione" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 1
-        ],
-        "Variablat" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 1
-        ],
-        "Ciklet të avancuara" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 1
-        ],
-        "Variablat" => [
-            "description" => "Hyrje në shkencën kompjuterike për lexuesit e hershëm",
-            "group" => 2
-        ],
-        "Operatorët e Krahasimit" => [
-            "description" => "Hyrje në shkenca kompjuterike për studentët që dinë të lexojnë",
-            "group" => 2
-        ],
-        "Operatorët Logjikë" => [
-            "description" => "Zhytuni edhe më thellë në programim ndërsa ndërtoni lojëra dhe histori interaktive",
-            "group" => 2
-        ],
-        "Booleans" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 2
-        ],
-        "Kushtet" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 2
-        ],
-        "Llojet e Ciklev" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 2
-        ],
-        "Funksionet" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 2
-        ],
-        "Funksionet e integruara" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 2
-        ],
-        "Kthehimet, nderprerjet dhe vazhdimet" => [
-            "description" => 'Ndërtoni programe më komplekse me koncepte si "për sythe" dhe "funksione me parametra"',
-            "group" => 2
-        ],
+        ]
     ];
 
     public function run()
@@ -89,8 +33,7 @@ class CourseSeeder extends Seeder
         foreach ($this->courses as $course_title => $course){
             course::create([
                 "name" => $course_title,
-                "description" => $course["description"],
-                "group" => $course["group"]
+                "description" => $course["description"]
             ]);
         }
     }
