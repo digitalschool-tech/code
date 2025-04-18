@@ -192,7 +192,7 @@
 
                                         <!-- Start Now button - Update text for auth state -->
                                         <div
-                                            class="mt-4 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                                            class="mt-4 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 ml-4">
                                             <div
                                                 class="inline-flex items-center bg-white {{ $index == 1 ? 'text-[#001E5F]' : 'text-' . ($index == 0 ? '[#0062E3]' : ($index == 2 ? '[#A034D9]' : '[#E03131]')) }} px-4 py-2 rounded-lg font-bold text-sm">
                                                 {{ auth()->check() ? 'Fillo Tani' : 'Login për të Filluar' }}
