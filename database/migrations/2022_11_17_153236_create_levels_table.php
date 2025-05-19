@@ -15,12 +15,15 @@ class CreateLevelsTable extends Migration
     {
         Schema::create('levels', function (Blueprint $table) {
             $table->id();
-            $table->string('index')->default("");
-            $table->string('description')->default("");
-            $table->string('player')->default("");
-            $table->string('goal')->default("");
-            $table->string('route')->default("");
-            $table->string('blocks')->default("");
+            $table->string('name')->nullable();
+            $table->integer('index')->default(0);
+            $table->text('description')->nullable();
+            $table->string('player')->nullable();
+            $table->text('goal')->nullable();
+            $table->string('route')->nullable();
+            $table->text('blocks')->nullable();
+            $table->string('video_url')->nullable();
+            $table->text('required_blocks')->nullable();
             $table->foreignId('lesson_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });

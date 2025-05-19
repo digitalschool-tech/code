@@ -1,0 +1,3933 @@
+[
+  {
+    "name": "Course 2",
+    "description": "Content from Course 2-Table 1.csv",
+    "lessons": [
+      {
+        "name": "Lesson 2 - Real-life Algorithms: Paper Planes",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/AWqo8Gxtrjs",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Select the algorithm that, when followed, would recreate the given  image.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Identify which one of the four provided images does not follow this algorithm.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 3 - Maze: Sequence",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/h7NtxHTrqgU",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": "move forward, turn left, turn right"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "The character moves through a maze to catch the naughty pig while being careful to avoid TNT blocks.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 4 - Artist: Sequence",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/MUavAHn-QUg",
+            "description": "Writing programs that draw different lines and shapes.",
+            "required_blocks": "move forward by x pixels, turn right by x degrees, turn left by x degrees, jump forward by x pixels, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Complete the wall of a half-finished house wall.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Draw a black hat that is 70 pixels shorter than a red hat, which is 100 pixels tall.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Draw a dashed line using 50-pixel segments, with the jump block used to move the artist without drawing between each segment.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Help complete the house for the cat by using drawing commands to finish the missing parts of the structure.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Draw a triangle to complete the roof of the house. All three sides of the triangle should be the same length.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Finish drawing the kite by adding the missing lines.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Finish drawing the last set of square windows on the school, with each window pane having sides that are 25 pixels long.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Build a barn by dividing a 200-pixel wide and 100-pixel tall rectangle into two equal-sized squares to create rooms for the animals.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Free-play, students can draw anything theyâd like.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color), set alpha x, set width x, set pattern x, draw sticker x"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Finish drawing the last tooth. It is 25 pixels wide and 25 pixels tall.",
+            "required_blocks": "jump forward/backward by x pixels, move forward/backward by x pixels, turn right/left by x degrees, set color (color), set color (random color)"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Match each  drawing to its corresponding algorithm by drag-and drop.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 5 - Getting Loopy",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/JoKTqHCni0M",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Simplify a series of repetitive commands by converting them into a loop",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 6 - Maze: Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Navigate the character to the pig using only 5 of the same type of block.",
+            "required_blocks": "move forward, turn left/right"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/mgooqyWMTxk",
+            "description": "Use the repeat block to loop a single move forward block multiple times in order to reach the pig,",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Use only one move forward block inside a repeat block to get to the pig.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Use two repeat loops to reach the pig.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Find the fastest way to reach the pig by using loops effectively.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Use a repeat loop to repeat a sequence of multiple blocks to get the zombie to the sunflower.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Apply what you've learned about loops to create a sequence that gets you to the sunflower",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Use nested repeat loops to reach the sunflower with the fewest blocks.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Use the fewest repeat loops possible to navigate to the sunflower.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Use the fewest number of blocks possible to reach the sunflower.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Use the fewest number of blocks possible to reach the sunflower.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Use exactly 5 blocks to reach the sunflower.",
+            "required_blocks": "move forward, turn left/right, repeat x times"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Choose one option that tells the correct Bee's movement.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "Match each  3x3 grid to its corresponding algorithm by drag-and drop",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 15 / 2 Bonus Levels",
+            "index": 15,
+            "video_url": "",
+            "description": "First Level: Use loops to help Scrat find his acorn.                                                                                           Second Level: Debug the code and use loops to help the collector find all the treasure.",
+            "required_blocks": "First Level: move forward, turn left/right, repeat x times.                                                                         Second Level: move forward, turn left/right, repeat x times, collect"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 7 - Artist: Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Draw a square with sides of 100 pixels, forming the robot's head by repeating movements with loops.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/SRsuaRlsdl4",
+            "description": "Use a repeat loop with only one move forward block and one turn block to solve the puzzle.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Run the code to observe the result, then use a repeat loop to repeat the code enough times to complete the drawing efficiently.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "A circle has 360 degrees. Use a loop to repeat the movement and turning blocks to create a circle, while adding colors at each step.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Use loops to draw an octagon with 100-pixel sides to create a border for the stop sign, ensuring each turn is 45 degrees.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Since a circle has 360 degrees, you need to repeat the code 360 times to draw a circle, turning 1 degree with each loop.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Use loops to draw a simple V-shaped arrow, with each side being 50 pixels long",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Use a loop to repeat drawing multiple V shapes, connecting them together to form a continuous pattern",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Rebuild the previous code by adding a left turn of 30 degrees inside the loop. Repeat the loop 24 times instead of 8 to create a more intricate pattern.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Use loops to draw a diamond with 100-pixel sides.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Use a loop to repeat the given grey code, creating multiple diamonds to form a fun, repeating pattern.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color)."
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Experiment with the code for the diamond by adjusting the turning angle and the number of loop repetitions.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color), set alpha x. set width x, set pattern x, draw sticker x."
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Use the tools and code to draw anything you like",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels, repeat x times, set color (color), set color (random color), set alpha x. set width x, set pattern x, draw sticker x."
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "Match each  4x4 grid to its corresponding algorithm by drag-and drop",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 15",
+            "index": 15,
+            "video_url": "",
+            "description": "Choose the shape that is made by the corresponding  program.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 16",
+            "index": 16,
+            "video_url": "",
+            "description": "Choose the shape that is made by the corresponding  program.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 17 / 2 Bonus Levels",
+            "index": 17,
+            "video_url": "",
+            "description": "First Level: Use loops to help Scrat find his acorn.                                                                                           Second Level: Debug the code and use loops to help the collector find all the treasure.",
+            "required_blocks": "First Level: move forward, turn left/right, repeat x times.                                                                         Second Level: move forward, turn left/right, repeat x times, collect"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 8 - Bee: Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Help the bee collect nectar by navigating to the flowers.",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/4W9TAxGJyyU",
+            "description": "Use a loop to gather all of the nectar by repeatedly navigating to each flower.",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Use a repeat loop to efficiently collect all of the nectar",
+            "required_blocks": "move forward, turn left/right, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Use a repeat block to collect all of the nectar and produce honey.",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Help the bee visit each flower using fewer than 7 blocks",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Collect nectar from each flower using the fewest blocks possible",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Collect nectar from each flower using the fewest blocks possible",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Use the fewest blocks possible to collect all the nectar and make all of the honey.",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Collect nectar from each flower and make honey at each honeycomb using the fewest blocks possible.",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Help Bee collect all of the nectar and make all of the honey with the fewest blocks possible.",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Collect all the nectar along the unique path using the fewest blocks possible.",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Find the quickest way for the bee to collect all of the nectar and make all of the honey.",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Collect all of the nectar using the fewest blocks possible.",
+            "required_blocks": "move forward, turn left/right, repeat x times, get nectar, make honey"
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "Choose the algorithm that solves the problem.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 15 / 2 Bonus Levels",
+            "index": 15,
+            "video_url": "/",
+            "description": "First Level: Collect all of the corn.                               Second Level: Collect all of the lettuce, avoiding the trees and fields.",
+            "required_blocks": "First Level: move forward, turn left/right, repeat x times, pick pumpkin, pick corn.                          Second Level: move forward, turn left/right, pick lettuce, pick pumpkin, pick corn, repeat x times."
+          }
+        ]
+      },
+      {
+        "name": "Lesson 18 - Your Digital Footprint",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/rgbZAWnOWOo",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Choose the option that shows the animal with the most unsafe digital footprint.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 9 - Relay Programming",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/l5MKkXbzOsk",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Multiple Choice: Identify the correct algorithm step by step",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Multiple Choice: Identify the correct algorithm",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 10- Bee: Debugging",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/g9lQgtcHGRg",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "repeat, move forward, get nectar"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "repeat, move forward, get nectar"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "move forward, get nectar, turn right, turn left"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "move forward, get nectar, turn right, turn left"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "repeat, move forward, get nectar"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "repeat, move forward, get nectar, turn right"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Fix the errors to collect all of the nectar and make all of the honey",
+            "required_blocks": "repeat, move forward, get nectar, make honey"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "repeat, move forward, get nectar"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Fix the program to collect all of the nectar and make all of the honey",
+            "required_blocks": "repeat, move forward, get nectar, turn left, make honey"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Fix the program to collect all of the nectar and make all of the honey",
+            "required_blocks": "repeat, move forward, get nectar, turn right, make honey"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Fix the errors in the code to collect all of the nectar",
+            "required_blocks": "repeat, move forward, turn left, get nectar"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 11- Artist: Debugging",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/ILgKunIAdqM",
+            "description": "Fix the hat to be 50 pixels wide.",
+            "required_blocks": "move forward by X pixels, turn left by X degrees, turn right by X degrees"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Fix this code to draw whiskers that are all the same length",
+            "required_blocks": "move forward by X pixels, turn left by X degrees, turn right by X degrees, move backward by X pixels"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Fix the hole in the boat to make the ends meet",
+            "required_blocks": "move forward by X pixels, turn right by X degrees"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Fix the code for the leg and foot",
+            "required_blocks": "move forward by X pixels, turn left by X degrees, turn right by X degrees"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Edit the code to draw the missing leg of the chair.",
+            "required_blocks": "move forward by X pixels, turn left by X degrees, turn right by X degrees"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Fix the code to draw the C correctly",
+            "required_blocks": "move forward by X pixels, turn left by X degrees, turn right by X degrees, move backward by X pixels"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Finish the pinwheel by figuring out whatâs missing or wrong in the code",
+            "required_blocks": "repeat, set color,  move forward by X pixels, turn right by X degrees"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Fix the code for the stem so the artist traces it correctly",
+            "required_blocks": "set color,  move forward by X pixels, turn right by X degrees, turn left by X degrees"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Fix the code to make the direction pad 10 pixels wider",
+            "required_blocks": "repeat, move forward by X pixels, turn right by X degrees"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Identify and fix the issue to prevent the snowflake from falling apart",
+            "required_blocks": "repeat, set color,  move forward by X pixels, turn right by X degrees"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Determine why the square is 75 pixels too small on each side and identify where the code goes wrong",
+            "required_blocks": "repeat,  move forward by X pixels, turn left by X degrees"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Multiple Choice: Identify what needs to be fixed to complete the circle",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 12 - Conditionals",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/UymN4lTL50s",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Multiple Choice: Determine which set of cards is scored correctly according to the rules",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 13: Bee: Conditionals",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Collect all the nectar using the fewest number of blocks",
+            "required_blocks": "repeat, move forward, turn right, get nectar"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Collect the nectar and make the honey using as few blocks as possible",
+            "required_blocks": "repeat, move forward, turn left, get nectar, make honey"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "https://youtu.be/g8BQLKnrj2U",
+            "description": "1.Use the if nectar == 1 block to check if a purple flower has nectar\n2.Collect nectar only if it's 1, since the flowers change each time",
+            "required_blocks": "repeat, move forward, get nectar, if block"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Use an if block to check if the flower has any nectar available. If nectar is available, collect it",
+            "required_blocks": "move forward, if block, get nectar"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Collect nectar from each flower only if it has any.",
+            "required_blocks": "move forward, turn right, if block, get nectar"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Collect nectar from all the flowers in the field.\n1.Red flowers have a known amount of nectar â collect that exact amount.\n2.Purple flowers have an unknown nectar amount â use a loop to keep collecting until it's gone",
+            "required_blocks": "move forward, turn left, if block, get nectar"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Go to each flower and collect all the nectar it has",
+            "required_blocks": "repeat, move forward, if block, turn right, get nectar"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Collect nectar only from the flowers that have some while flying around the yard",
+            "required_blocks": "repeat, move forward, get nectar, if block,turn left"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Find and collect all of the nectar using as few code blocks as possible",
+            "required_blocks": "repeat, move forward, get nectar, if block"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Use everything youâve learned to collect all the nectar and then make the honey",
+            "required_blocks": "repeat, move forward, get nectar, if block,turn right, make honey"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "1.Collect nectar only from flowers that have it (use an if block!)\n2.Do it using as few blocks as possible\n3.Make honey",
+            "required_blocks": "repeat, move forward, get nectar, if block,turn left, make honey"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Collect nectar only from the flowers that have some, using as few blocks as possible",
+            "required_blocks": "repeat, move forward, get nectar, if block,turn left,turn right"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "1.Collect all of the nectar!\n2.But be careful â don't collect nectar from purple flowers if they don't have any",
+            "required_blocks": "repeat, move forward, get nectar, if block,"
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "Multiple Choice: Which of the following comparisons is true",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 15",
+            "index": 15,
+            "video_url": "",
+            "description": "Multiple Choice: Choose the best blocks. Purple flowers have either 0 or 1 nectar",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 14- Binary Bracelets",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/3S2YfoO4_CM",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Matching: Use the key to match each code to its letter",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 15- The Big Event",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/XoApWo-IrI4",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Match the button combination to the dance moves.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 16: Flappy",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/VQ4lo6Huylc",
+            "description": "Attach a block to the \"when click\" block, then press \"Run\". Click or tap the screen to move Flappy to the target.",
+            "required_blocks": "flap, play x sound"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Attach a block to the \"when hit the ground\" event that triggers 'END GAME' when Flappy crashes",
+            "required_blocks": "flap, end game, play x sound, when click, when hit the ground"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Use the \"when run\" block to set the level speed and start flapping toward the target",
+            "required_blocks": "flap, play x sound, set speed x, when click"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Attach a block to the \"when hit an obstacle\" event to 'END GAME' when Flappy crashes into the first set of pipes",
+            "required_blocks": "flap, end game, play x sound, set speed x, when click, when hit an obstacle"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Attach a block to the \"when pass an obstacle\" event to increase the score, then guide Flappy through the first set of pipes to earn a point.",
+            "required_blocks": "flap, score a point, set speed x, when click, when pass obstacle"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Adjust Flappyâs flap strength, then test the game to see if you can still score a point by passing through an obstacle.",
+            "required_blocks": "flap a X amount, score a point, set speed x, when pass obstacle, when click"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Change the scene by attaching another block to the \"when run\" block.",
+            "required_blocks": "flip a x amount, end game, score a point, play x sound, set speed x, set scene x, when click, when hit the ground, when hit an obstacle, when pass obstacle"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Set a random scene when an event occursâsuch as passing an obstacleâto dynamically change the gameâs visuals during gameplay.",
+            "required_blocks": "flap a x amount, end game, score a point, play x sound, set speed x, set scene x, set player x, when click, when hit the ground, when hit an obstacle, when pass obstacle"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "When hitting an obstacle, instead of ending the game try setting the score back to 0.",
+            "required_blocks": "flap a x amount, end game, score a point, play x sound, set speed x, set scene x, set player x, set score 0, when click, when hit the ground, when hit an obstacle, when pass obstacle"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Create your own Flappy game",
+            "required_blocks": "flap a x amount, play x sound, score a point, end game, set speed x, set scene x, set player x, set obstacle x, set ground x, set a x gap, set gravity x, set score x, when click, when hit the ground, when hit an obstacle, when pass obstacle"
+          },
+          {
+            "name": "Stage 11 / 2 Bonus Levels",
+            "index": 11,
+            "video_url": "",
+            "description": "First Level: Collect all of the nectar and make all the honey. You can collect all of the nectar in one flower by using the while nectar > 0 loop.                                                 Second Level: Collect all of the nectar or make all the honey. You can only collect nectar from flowers and make honey from honeycombs. Check any space to see if there is a flower or honeycomb.",
+            "required_blocks": "First Level: move forward, turn right/left, get nectar, make honey, while x do x, while path ahead do x,  repeat x times, if at x do else, if at x do."
+          }
+        ]
+      },
+      {
+        "name": "Lesson 17: Play Lab: Create a Story",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/GVl6cLxMmTs",
+            "description": "Make a dog say \"hello world\".",
+            "required_blocks": "say \"x\""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Make the dog say something and then have the cat say something afterwards.",
+            "required_blocks": "actor x say \"x\""
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Write a program to make a dog move to the cat",
+            "required_blocks": "move actor x, right/left, x pixels, actor x say \"x\""
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Write a program that makes the dog move to the cat, and have the cat say \"hello\" when the dog reaches him.",
+            "required_blocks": "move actor x, right/left, x pixels, actor x say \"x\", when actor x touches x"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Write a program to make the octopus say \"hello\" when it is clicked",
+            "required_blocks": "move right/left x pixels, say \"x\", when actor clicked"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Write a program to make Waddles move around using the up / down / left /right keys to hit all of the targets",
+            "required_blocks": "move x, say \"x\", when left arrow, when right arrow, when up arrow, when down arrow"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Use the \"repeat forever\" block to attach movement blocks that make the dinosaur move up and down continuously",
+            "required_blocks": "move actor x up/down x pixels, actor x say \"x\", when left arrow, when right arrow, when up arrow, when down arrow, repeat forever"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Use arrow key controls to move Waddles, and attach code to the collision event so that when he runs into the dinosaur, he says \"Ouch!\" and plays a \"hit\" sound.",
+            "required_blocks": "move actor x up/down x pixels, actor x say \"x\", when left arrow, when right arrow, when up arrow, when down arrow, repeat forever, when actor x touches actor x, play x sound"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Add a block to score a point when Waddles runs into the octopus, and then move him with the arrows until you score",
+            "required_blocks": "move actor x up/down x pixels, actor x say \"x\", play x sound, x point, when left arrow, when right arrow, when up arrow, when down arrow, repeat forever, when actor x touches x"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Add blocks to change the background and the speed of Waddles, and then move him with the arrows until you score",
+            "required_blocks": "set x background, move actor x up/down x pixels, actor x say \"x\", play x sound, x point, set actor x to a x speed, when left arrow, when right arrow, when up arrow, when down arrow, repeat forever, when actor x touches x."
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Create your own story",
+            "required_blocks": "set actor x to x image, set x background, when up/down/left/right arrow, when actor x clicked, when actor x touches x, repeat forever, show title screen title \"x\" text \"x\", move actor x up/down/left/right, move actor x up/down/left/right x pixels, stop actor x, wait for x, play x sound, score x, actor x say \"x\", set actor x to the x position, actor x throw x up/down/left/right, make x bounce, set actor x to a x speed, set actor x to a x mood, vanish actor x"
+          },
+          {
+            "name": "Stage 12 / 2 Bonus Levels",
+            "index": 12,
+            "video_url": "",
+            "description": "First Level: Collect all of the nectar and make all the honey. Second Level: Collect all of the nectar or make all the honey. You can only collect nectar from flowers and make honey from honeycombs. Check any space to see if there is a flower or honeycomb.",
+            "required_blocks": "First Level: move forward, turn right/left, get nectar, make honey, while x > 0 do, while path ahead do, repeat x times, if at x do else, if at x do                                                                          Second Level: move forward, turn right/left, get nectar, make honey, if at x do else, if at x do, while path ahead do, repeat x times"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 19: Artist: Nested Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Put a repeat block around the whole stack of code to draw the full pattern using loops inside of loops",
+            "required_blocks": "repeat, move forward by X pixels, turn right by X degrees"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "1.Loop the triangle 6 times \n2.After drawing each triangle, make sure to turn 60 degrees before starting the next one",
+            "required_blocks": "repeat, move forward by X pixels, turn right by X degrees, set color"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Loop your triangle 12 times \n2.Divide the number of degrees in a circle (360) by the number of shapes you're drawing (12) to figure out how far to turn after each shape",
+            "required_blocks": "repeat, move forward by X pixels, turn right by X degrees, set color"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "1.Loop this diamond shape 12 times to draw a flower\n2.Use the same turning angle as when looping 12 triangles.",
+            "required_blocks": "repeat, move forward by X pixels, turn right by X degrees, set color"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.Fill in the buildingâs windows using a nested loop\n2.Each window is 20 pixels long and spaced 20 pixels apart",
+            "required_blocks": "repeat, move forward by X pixels, turn left by X degrees, jump forward by X pixels"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.Draw 8 spikes on the dinosaurâs tail using a loop\n2.Each spike is a 30-pixel triangle\n3.After drawing each spike, jump forward to make room for the next one",
+            "required_blocks": "repeat, move forward by X pixels, turn left by X degrees, jump forward by X pixels"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.Draw the sun by looping a triangle 10 times\n2.After each triangle, be sure to move and turn to space them evenly\n3.A circle has 360 degrees â divide that by 10 to find out how much to turn after each triangle",
+            "required_blocks": "repeat, move forward by X pixels, turn left by X degrees,turn right by X degrees"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Add tufts of grass to your picture, making sure each one is 50 pixels apart",
+            "required_blocks": "repeat, move forward/backward by X pixels, turn right/left by X degrees, jump forward/backward by X pixels"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Finish the picture by looping the diamond 12 times to draw the flower",
+            "required_blocks": "repeat, set color, move forward/backward by X pixels, turn right by X degrees"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Loop the code 12 times to complete the pattern.",
+            "required_blocks": "move forward by x pixels, turn right/left by x degrees, repeat x times, set color (red), set color"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Loop this code 4 times to complete the pattern, turn 90 degrees after each circle.",
+            "required_blocks": "turn right by X degrees, repeat , set color, move forward by X pixels"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Loop this code 12 times to complete the curls.",
+            "required_blocks": "move forward by x pixels, turn right by x degrees, repeat x times, set color"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Free play, draw something cool with nested loops.",
+            "required_blocks": "move forward/backward by x pixels, jump forward/backward by x pixels, turn right/left by x degrees, repeat x times, set color (color), set color (random color), set alpha x, set width x, set pattern x, draw sticker x"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Course 3",
+    "description": "Content from Course 3-Table 1.csv",
+    "lessons": [
+      {
+        "name": "Lesson 2: Maze",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 2",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Move the zombie step by step until it reaches the sunflower.",
+            "required_blocks": "Move Forward"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Goal 1: Move the zombie to the sunflower,Goal 2: go around the chomper to avoid it.",
+            "required_blocks": "Move Forward, Turn Right, Turn Left"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Goal 1: Move the zombie to the sunflower,Goal 2: go around the chomper to avoid it.",
+            "required_blocks": "Move Forward, Turn Right, Turn Left"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "https://www.youtube.com/watch?v=7ZFb9BrjHt8&embeds_referring_euri=https%3A%2F%2Fstudio.code.org%2F",
+            "description": "Goal 1: Move the zombie to the sunflower,Goal 2: go around the chompers to avoid them.",
+            "required_blocks": "Repeat Loop, Move Forward"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Goal 1: Move the zombie to the sunflower,Goal 2: go around the chomper to avoid it.",
+            "required_blocks": "Repeat Loop, Move Forward, Turn Right"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Goal 1: Move the zombie to the sunflower,Goal 2: go around the chomper to avoid it.",
+            "required_blocks": "Repeat Loop, Move Forward, Turn Right"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Goal 1: Move the zombie to the sunflower,Goal 2: go around the chomper to avoid it.",
+            "required_blocks": "Repeat Loop, Move Forward, Turn Right, Turn Left"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Goal 1: Move the zombie to the sunflower,Goal 2: go around the chompers to avoid them.",
+            "required_blocks": "Repeat Loop, Move Forward, Turn Right, Turn Left"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Use a Repeat Until loop to get the zombie to the sunfower.",
+            "required_blocks": "Repeat Until, Move Forward"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Use a Repeat Until loop to get the zombie to the sunfower.",
+            "required_blocks": "Repeat Until, Move Forward, Turn Left"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Use a Repeat Until loop to get the zombie to the sunfower.",
+            "required_blocks": "Repeat Until,  Move Forward,  Turn Right, Turn Left"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Use a Repeat Until loop to get the zombie to the sunfower.",
+            "required_blocks": "Repeat Until,  Move Forward,  Turn Right, Turn Left"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Goal 1: Use a Repeat Until loop to get the zombie to the sunfower. Goal 2: Avoid the chompers",
+            "required_blocks": "Repeat Until,  Move Forward,  Turn Right"
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "Match the puzzles to the blocks",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 15",
+            "index": 15,
+            "video_url": "",
+            "description": "Maze Multiple ChoiceChoose the block that solwes the puzzle.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 3: Artist",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 3:",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://www.youtube.com/watch?v=MUavAHn-QUg",
+            "description": "use block-based commands to draw a rectangle, without loops",
+            "required_blocks": "Move Forward by 300 pixels,Turn right by 90 degrees,"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Create a rectangle by drawing two long sides and two short sides, connecting them to form a closed shape using repeat loop. Ensure that each corner turns at a 90-degree angle, and the opposite sides are equal in length.",
+            "required_blocks": "repeat 4 times,move forward by 300pixels, turn right by 90 degrees"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "draw a rectangle, using loops",
+            "required_blocks": "repeat 2 times,move forward by 200 pixel,turn left by 90 degrees"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Draw 8 straight lines starting from the same center point. Each line should be the same length, and the angle between each line should be 45 degrees.",
+            "required_blocks": "repeat 8 times do,set color,random color,move forward b 100 pixels,move backward by 100pixels, turn right by 45 degrees"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Use a loop to draw several straight lines. Each line is drawn with a turn to ensure they eventually form a circle.",
+            "required_blocks": "repeat 8 times do,set color,random color,move forward b 100 pixels,move backward by 100pixels, turn right by  1 degrees"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Draw a shape using 3 lines while turning the drawing tool left by 30 degrees after each line.",
+            "required_blocks": "repeat 3 times, turn left by 30 degrees,move forward by 100 pixels,move backward by 100pixels"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Draw a line to create a triangle",
+            "required_blocks": "turn left by 60 degrees, move forward by 200 pixels"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Draw a line to create a triangle",
+            "required_blocks": "turn left by 30 degrees, move forward by 200 pixels"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Draw a rectangle with a line in the  middle of the the long sides of the rectangle",
+            "required_blocks": "Repeat 2 times do,move forward by 240 pixels,turn left by 90 degrees,turn left by 90 degrees"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Draw 3 triangles in a row, each connected to the next.",
+            "required_blocks": "repeat 3 times, move forward by 50 pixels,turn right by 120 degrees"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Draw 10 lines with a distance from each other.",
+            "required_blocks": "set color ,repeat x times do, move forward by x pixels,move backward by x pixels, turn left by x degrees,turn right by 90 degrees"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "use block-based commands to draw a rectangle",
+            "required_blocks": "repeat x times,move forward by x pixels,turn left by 120 degrees"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Artist Multiple Choice, student should choice a block of code that draw a rectangle with a perimeter of 100",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "Artist Multiple Choice, student should choice a block of code that drawing is symmetric",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 15",
+            "index": 15,
+            "video_url": "",
+            "description": "Free Draw! Draw whatever you are inspired to create.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 4: Functional Suncatchers",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 4",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Multiple choice question,  Which of the programs below does not make the exact same sequence as Program 1? students should be able to identify the wrong sequence that does no the match the sequence of Program 1",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Match each program to the word it makes, using the provided group of skills. The students should be able to identify each new word that they learned in practice.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 5: Artist:Functions",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 5:",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Draw two squares that are connected with a line. After drawing the squares and connecting them, the image will resemble a pair of eyeglasses.without functions",
+            "required_blocks": "repeat x times do, move forward by x degrees, turn right by x degrees"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://www.youtube.com/watch?v=6pLMiODz-DY",
+            "description": "1.Draw two squares that are connected with a line. After drawing the squares and connecting them, the image will resemble a pair of eyeglasses.with function, the the function is ready.",
+            "required_blocks": "set color,draw a sqaure length:x,move forward by x pixels,draw a square length:100d.Draw a square function:repeat 4 times do, move forward by 100 pixels,turn right by 90 degrees"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Draw two squares that are connected with a line. After drawing the squares and connecting them, the image will resemble a pair of eyeglasses.with function, but we should make a change in function to make the glasses bigger",
+            "required_blocks": "set color,draw a square, move forward by 160 pixels,draw a square.Draw a square function:repeat 4 times do, move forward by 115 pixels,turn right by 90 degrees"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "1.Use a function to draw a square and create three additional squares, each rotated 120 degrees to the right from the previous one.",
+            "required_blocks": "repeat 3 times, draw a square, turn right by 120 degrees.Draw a square function:repeat 4 times do, move forward by 100 pixels,turn right by 90 degrees"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.Use a function to draw a hexagon and create three additional hexagon, each rotated 120 degrees to the right from the previous one.",
+            "required_blocks": "repeat 3 times, draw a hexagon, turn right by 120 degrees,Draw a hexagon function:repeat 6 times do,set color,move forward by 50 pixels,turn right by 60 degrees"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.Use a function to draw a hexagon and create six additional hexagon, each rotated 60 degrees to the right from the previous one.",
+            "required_blocks": "repeat 6 times, draw a hexagon, turn right by 60 degrees.  Draw a hexagon function:repeat 6 times do,set color,move forward by 50 pixels,turn right by 60 degrees"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.use function draw a flower to make 3 of them",
+            "required_blocks": "repeat 3 times do,draw a flower, jump forward by x pixels   Function draw a flower:set color,turn left by 90 degrees,move forward by 100 pixels,repeat 10 times do(set color,random color, turn left by 36 degrees,move forward by 25 pixels, turn left by 36 degrees,move forward by 25 pixels, turn left by 36 degrees,move forward by 25 pixels, turn left by 36 degrees,move forward by 25 pixels,turn left by 144 degrees)jump backward by 100 pixels, turn right by 90 degrees"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "1.freeplay:there is a snowflake funciton and can experiment with it",
+            "required_blocks": "function draw a snowflake:repeat 8 times do, sel color,move forward by 30 pixels, turn right by 90 degrees,move forward by 30 pixels, turn right by 90 degrees,set color,move forward by 15 pixels, turn right by 90 degrees,move forward by 30 pixels, turn right by 45 degrees"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "1.use the function big gear and small gear",
+            "required_blocks": "big gear function:repeat 12 times do,move forward by 20 pixels,turn left by 75 degrees,move forward by 10 pixels,turn right by 90 degrees,move forward by 20 pixels,turn right by 90 degrees,move forward by 10 pixels,turn left by 75 degrees   small gear function:repeat 6 times do,move forward by 20 pixels,turn left by 60 degrees,move forward by 10 pixels,turn right by 90 degrees,move forward by 20 pixels,turn right by 90 degrees,move forward by 10 pixels,turn left by 60 degrees"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "1.Multiple choice:pick the correct blocks to draw the rectangle that are in the image.In image are two rectangle with a distance by 100 pixels",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 6:Bee:Functions",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 6:",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Collect the nectar from both the flowers, using the repeat loop, each one of them has 3 nectars.",
+            "required_blocks": "Repeat Loop, Move Forward, Get Nectar, Turn Right"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/xjrDRrxWvoc",
+            "description": "1.Collect the nectar from both the flowers, using the repeat loop, each one of them has 2 nectars. The Get 2 nectar function is already provided.",
+            "required_blocks": "Function Get 2 nectar(get nectar, get nectar), Repeat Loop, Move Forward, Function(Get 2 nectar)"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Collect the nectar from 3 flowers using the repeat loop, each flower has 5 nectars. The Get 5 function is already provided.",
+            "required_blocks": "Function Get 5(repeat 5 times, get nectar),  Move Forward, Turn Right, Repeat X times, get 5 function"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "1.Collect the nectar from 3 flowers using the repeat loop, each flower has 1 nectars. The move and get nectar is already provided.",
+            "required_blocks": "Function move and get nectar(Turn Right, Move Forward, Get Nectar, Move Backward, Turn Left),  Repeat X times, Move Forward, move and get nectar function"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.Collect the nectar from the flower, the flower has 4 nectars. Unlike the stages before the function needs to be edited.",
+            "required_blocks": "Function move and get 4(Turn Right, Move Forward, Get Nectar, Move backward,Turn Left), Move Forward, repeat 4 times, move and get 4 function"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.Collect the nectar from 3 flowers, each flowers has 4 nectars. Also the function needs to be edited.",
+            "required_blocks": "Function move and get 4 (Turn Right, Move Forward, Repeat 4 times, Get Nectar, Move Backward, Turn Left), Move Forward, Move and get 4 function."
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.Collect the nectar from 2 flowers, each one has 7 nectars. 2.Also make honey at the honeycomb, at both honeycombs you have to make 7 honey. \nThe goal is to create the function for this stage unlike the other stages where we had the function done.",
+            "required_blocks": "Function get 7nectar make 7 honey(Repeat Loop, Get Nectar, Make Honey), Move Forward, get 7 nectar make 7 honey function"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "1.Collect the nectar from 2 flowers, each one has 7 nectars. 2.Also make honey at the honeycomb, at both honeycombs you have to make 7 honey. \nThe goal is to create the function for this stage unlike the other stages where we had the function done.",
+            "required_blocks": "Funbction get 7 make 7 (Turn Right, Move Forward, Repeat Loop,  Get Nectar, Make Honey, Move Baskward, Turn Left)"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "1.Collect the purple nectar from the purple flowers, this time we don't know how much nectar we have in the flowers, so we have to use conditionals.",
+            "required_blocks": "Function collect purple nectar(Conditionals if nectar > 0, get nectar), Repeat Loop, Move Forward, Turn Right, Turn Left, collect purple nectar function"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "1.Collect the nectar from 2 flowers using the already given function. Each flower has 7 nectars",
+            "required_blocks": "Function get 7(repeat 7 times, get nectar), Move Forward, get 7 function, Turn Right"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "1.Make honey in 3 honeycombs, in each honeycomb we have to make 3 honeys. In this stage the students have to create the function and add the steps for movement",
+            "required_blocks": "Function move and get 3(Turn Right, Move Forward, Repeat Loop, Make Honey, Move Backward), Turn Left, Move and get 3 function , repeat loop, Move Forward"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 7:Bee:Conditionals",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 7:",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://www.youtube.com/watch?v=g8BQLKnrj2U",
+            "description": "1.There is a cloud that is blocking the view, the goal is to go to the cloud with a question mark in it and if there is any nectar to get it",
+            "required_blocks": "repeat 3 times do(move forward),if at flower do(get nectar)"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "1.Check underneath every cloud to see if it is a hiding flower before get the nectar, there are two clouds so we should check two times using loops",
+            "required_blocks": "move forward,move forward,turn right,repeat 2 times(move forward,if at flower do(get nectar))"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "3.Check underneath every cloud to see if it is a hiding honeycombs before making honey, there are two clouds so we should check two times using loops",
+            "required_blocks": "repeat 2 times(move forward, move forward,if at honeycomb do(mae honey)turn left)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "now under the cluod can be a flower or a honeycomb.The goal is to collect nectar if there is a flower  else make honey",
+            "required_blocks": "move forward,move forward,if at flower do (get nectar) else(make honey)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.Now under the cluod can be a flower or a honeycomb.The goal is to collect nectar if there is a flower  else make honey,there is 4 of them.do that using loops",
+            "required_blocks": "move forward,repeat 4 times do(if at flower do(get nectar)else (make honey)repeat 3 times do(move forward)turn right)"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.There is a flower and we dont know how much nectar is there.Go to flower and check how much nectar there is and get it",
+            "required_blocks": "move forward,repeat 3 tiems do (if nectar>0 do (get nectar))"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.There are three flowers, and the objective is to collect the nectar from them. However, the exact amount of nectar in each flower is unknown, so the bee needs to go to each flower and collect the nectar.Student should create a function for check purple flower",
+            "required_blocks": "repeat 3 times do(move forward,check purple function)\ncheck purple function:repeat 3 timesdo(if nectar>0 do(get nectar))"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "1. The goal is to get the nectar from the flower where the number of nectar in one flower is unknow (can be 3,2,1)\n2.The goal is to make honey and the number of honey is 1 in each one.The student should write the function to check flower to make honey",
+            "required_blocks": "repeat 2 times(move forward,turn right,move forward,turn left,chck flower make honey,turn right,move forward,turn left)\nfunction check flower make honey(repeat 3 times do(if nectar>0 do(get nectar))move forward,make honey)"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "1.A cloud is either hiding a flower with one nectar or a honeycomb that needs one honey. Student should write the function to get nectar or make honey",
+            "required_blocks": "move forward,get nectar or make honey\nfunction get nectar or make honey/9if at honeycomb do(make honey)else(get nectar)"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Multiple choice:student shoul select the right aanwer for:A purple flower may have either 3, 2 or 1 nectars, but you don't know how many. Which blocks correctly check and collect all of the nectar from a purple flower?",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 8: Maze: Conditionals",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 8",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Use the repeat until block to get the zombie to the sunflower.",
+            "required_blocks": "Repeat Until, Move Forward"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Goal 1: Use the repeat until block to get the zombie to the sunflower. \nGoal 2: Avoid going to the chompers,there are two of them.",
+            "required_blocks": "Repeat Until, Move Forward"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "https://youtu.be/m2Ux2PnJe6E",
+            "description": "Goal 1: Use the if block to help the zombie decide when to turn. Goal 2: Avoid going to the chomper.",
+            "required_blocks": "Repeat Until, Move Forward , If path to the left, Turn Left"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Goal 1: Use the if block to help the zombie decide when to turn. Goal 2: Avoid going to the chompers,there are teo of them.",
+            "required_blocks": "Repeat Until, Move Forward , If path to the right, Turn Right"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Goal 1: Use the if block to help the zombie decide when to turn. Goal 2: Avoid going to the chompers.",
+            "required_blocks": "Repeat Until, Move Forward , If path to the left, Turn Left"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Goal 1: Use the if block to help the zombie decide when to turn. Goal 2: Avoid going to the chompers.",
+            "required_blocks": "Repeat Until, Move Forward , If path to the left, Turn Left"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Goal 1: Use the if block to help the zombie decide when to turn. Goal 2: Avoid going to the chompers.",
+            "required_blocks": "Repeat Until, Move Forward , If path to the right, Turn Right"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "https://youtu.be/g8BQLKnrj2U",
+            "description": "Goal 1: Use the if/else block to help the zombie decide what to do. \nGoal 2: Avoid going to the chompers.",
+            "required_blocks": "Repeat Until, Move Forward , If path  ahead/else, Turn Left"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Goal 1: Use the if/else block to help the zombie decide what to do. \nGoal 2: Avoid going to the chompers.",
+            "required_blocks": "repeat Until, If path ahead/else, Move Forward, Turn Right"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Use repeat until and two if/else blocks to guide the zombie to the sunflower.",
+            "required_blocks": "Repeat Until, If path ahead/else,Move Forward, If path to the right, Turn Left, Turn Right"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Goal 1: Use repeat until and the if/else block to help the zombie decide what to do. \nGoal 2: Avoid going to the chompers.",
+            "required_blocks": "Repeat Until, If path ahead/else, Move Forward, Turn Right"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Multiple choice question to identify which blocks solve the puzzle shown in the picture.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 9:Songwriting",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 9:",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Multiple choice:A song is writed and the student should select the right answer for:What is the largest chunk of this song that you can define as the chorus so that the chorus repeats exactly each time it is called?",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 10:Dice Race",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 10:Dice Race",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Matching game: match the steps in the Dice Race game to the order that they should appear in the algorithm.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Multiple choice question: The students should identify which of the answers is hardest to describe an algorithm for.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 11: Artist:Nested Loops",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 11: Artist:Nested Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Draw these triangles.Code for the first one is done . 3 triangles in a 120 degree rotation.Without using nested loops",
+            "required_blocks": "Repeat 3 times do(move forward by 100 pixels,turn left by 120 degrees)turn left by 120 degrees,Repeat 3 times do(move forward by 100 pixels,turn left by 120 degrees)turn left by 120 degrees,Repeat 3 times do(move forward by 100 pixels,turn left by 120 degrees)."
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://www.youtube.com/watch?v=zRwifFUFJC8",
+            "description": "1.While using nested loops draw 10 triangles,by trurning right by 36 degrees",
+            "required_blocks": "this code is written when the stage changes:set color,random color,repeat 3 times(move forward by 100 pixels,turn right by 120 degrees)turn right by 36 degrees)\nthe code that student should add:repeat 10 times do(set color,random color,repeat 3 times(move forward by 100 pixels,turn right by 120 degrees)turn right by 36 degrees))"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Draw a hexagon by looping the triangle code",
+            "required_blocks": "this code is written when the stage changes:repeat 3 times(move forward by 100 pixels,turn right by 120 degrees)\nthe code the student should write:repeat 6 times do(repeat 3 times(move forward by 100 pixels,turn right by 120 degrees),turn right by 60 degress)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "1.Draw the teeth in the alligator's mouth,teeth of the aligator are 6 triangles in row",
+            "required_blocks": "this code is written when the stage changes:repeat 3 times(move forward by 100 pixels,turn right by 120 degrees)\nthe code the student should write:repeat 6 times do(repeat 3 times(move forward by 100 pixels,turn right by 120 degrees),turn right by 20 degress)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.Draw a circular pattern with repeated triangle-like spikes around it, creating a sun-shaped design using loops and angles.",
+            "required_blocks": "this code is written when the stage changes:repeat 3 times(move forward by 100 pixels,turn right by 120 degrees)\nthe code the student should write:repeat 12 times do(repeat 3 times(move forward by 100 pixels,turn right by 120 degrees),move forward by 50 pixelsturn right by 30 degress,)"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.Create a spinning triangle design by repeating the same triangle shape in a circular pattern using loops and turns.",
+            "required_blocks": "this code is written when the stage changes:move forward by 50 pixels,repeat 3 times(move forward by 50 pixels,turn right by 120 degrees)move backward by 50 pixels,turn right by 40 degrees\nthe code that student should write:repeat 9 times do(move forward by 50 pixels,repeat 3 times(move forward by 50 pixels,turn right by 120 degrees)move backward by 50 pixels,turn right by 40 degrees)"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.Draw a flower-like design by repeating a complex shape (like a stretched leaf or diamond) around a center point using loops and rotation.",
+            "required_blocks": "this code is written when the stage changes: repeat 2 times(move forward by 100 pixels,tur right  by 60 degrees,move forward by 50 pixels,turn right by 120 degrees)\nthe code student should write:repeat 10 times do(repeat 2 times(move forward by 100 pixels,tur right  bby 60 degrees,move forward by 50 pixels,turn right by 120 degrees),turn right by 36 degrees)"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "1.Draw these 10 squares of  sidewalk using a nested loop",
+            "required_blocks": "this code is written when the stage changes:repeat 4 times do(move forward by 30 pixels,turn left by 90 degrees)\nthis code should studen write:repeat 10 times do (repeat 4 times do(move forward by 30 pixels,turn left by 90 degrees),jump dorward by 30 pixels)"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "1.Loop the shape 6 times.The shape looks as diamant",
+            "required_blocks": "this code is written when the stage changes:repeat 3 times do(set color,move forward by 100 pixels,turn right by 60 degrees,set color,move forward by 50 pixels,turn right by 60 degrees)\nthe code that student should write:repeat 6 times do(repeat 3 times do(set color,move forward by 100 pixels,turn right by 60 degrees,set color,move forward by 50 pixels,turn right by 60 degrees),turn right by 60 degrees)"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "1.Draw 36 triangles using a nested loop by turning right by 10 degrees",
+            "required_blocks": "this code was writtenwhen the stage changes:sel colr,repeat 3 times do(move forward by 100 pixels,turn right by 120 degrees)"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "1.Assessment:Use nested loops to draw 4 circles by turning right by 90 degrees",
+            "required_blocks": "this code was written when the stage changes:repeat 90 times do(move forward by 5 pixels,turn right by 4 degrees)"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Multiple choice:a figure is drawn and the student should choose the right code to draw that figure",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 12: Farmer :While Loops",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 12",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Goal 1: Move the character to the hole. \nGoal 2: Fill the hole using the fill block",
+            "required_blocks": "Move Forward, Fill 1"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Goal 1: Move the character to the pile of dirt. \nGoal 2: Remove the pile using the remove block with 5 shovel scoops",
+            "required_blocks": "Move Forward, Repeat Loop, Remove 1"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "https://youtu.be/F8H-41bpJ6E",
+            "description": "Goal 1: Guide the character to the pile of dirt and to the hole. Goal 2: remove the pile of dirt using the remove block. Goal 3: Fill the hole using the fill block",
+            "required_blocks": "Repeat Loop, Move Forward, Remove 1, Fill 1, Turn Left"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Goal 1: Guide the charachter to the hole. \nGoal 2: Fill the hole but this time we don't know how many shovelfuls of dirt do we need.",
+            "required_blocks": "Move Forward, Turn Left, While there is hole, Fill 1"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Goal 1: Guide the charachter to the hole.\n Goal 2: Fill both holes but this time we don't know how many shovelfuls of dirt do we need for neither of them",
+            "required_blocks": "repeat Loop, Move Forward, Turn Left. While there is a hole, Fill 1, Turn Right"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Goal 1: Guide the charachter to the pile. \nGoal 2: remove the pile of dirt until the ground is even, we dont know how much dirt we need to remove",
+            "required_blocks": "Move Forward, Turn Left, While the is a pile, Remove 1"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Goal 1: Guide the charachter to the piles. \nGoal 2: remove the three piles of dirt until the ground is even, we still don't know how much dirt we have to remove.",
+            "required_blocks": "Repeat Loop, Move Forward, Turn Left, Turn Right, While there is a pile, Remove 1"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Goal 1: Guide the charachter to the hole than to the pile of dirt. Goal 2: Fill the hole with dirt, Goal 3: Remove the pile of dirt until the ground is even.For both goals, we don't know how much we need to fill or remove.",
+            "required_blocks": "Move Forward, While there is a hole, Fill 1, Turn Right, While there is a pile, Remove 1"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Goal 1: Guide the charachter to the holes and to the piles of dirt. Goal 2: Fill the holes with dirt, Goal 3: Remove the piles of dirt until the ground is even.For both goals, we don't know how much we need to fill or remove.",
+            "required_blocks": "Repeat Loop, Move Forward, While there is a hole, Fill 1, While there is a pile, Remove 1, Turn Right"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 13: Bee :Nested Loops",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 13",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Use a loop to collect all of the nectar.There are  5 flowers with one nectar each of them",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/PuO6y8f1HGg",
+            "description": "1.Collect all of the nectar from each flower using a nested loop.There are 5 of them with 3 nectar each of them",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Collect all of the nectar by putting the starter code inside another loop.There are 8 flower with 1 nectar each of them",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "1.Collect all of the nectar by using nested loop.There are three flowers with 5 nectar in each of them",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.Collect all of the nectar from each flower.There are 5 flowers each of thme has 4 nectar\n2.Make honey at the honeycomb there are 4 honey in it",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.Collect the nectar from purple flower,but the number of nectar is unknown",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times, while x > 0"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.Collect all of the nectar from the purple flower.There are 3 flowers and unknown number of nectar",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times, while x > 0"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "1.Use a while loop inside of two other loops to collect all of the nectar.There are 12 purple flower and each of them have unknown number of nectar",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times, while x > 0"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "1.Collect all of the nectar from these flowers by nesting a while loop inside a repeat.There are 3 purple flower with unknown number of nectar",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times, while x > 0"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "1.Gather nectar from the rows of flowers using a nested loop.There are 12 purple flower and each of them have unknown number of nectar",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times, while x > 0"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "1.Use a while loop to collect all of the nectar from these flowers.There are 7 purple flower in a row and each of them have unknown number of nectar",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times, while x > 0"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "1.Collect nectar from the flower.There are 3 flower and each of them has 3 nectar\n2.Collect the honey from the honeycomb.There are 3 honeycomb and each of them have 3 honey",
+            "required_blocks": "move forward, turn left/right, get nectar, make honey, repeat x times"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "1. Choose the option with the blocks that will solve the puzzle.The puzzel has three purple flower with unknown number of nectar",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 14: Bee :Debugging",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 14",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/g9lQgtcHGRg",
+            "description": "Goal 1: collect the nectar from the flower.\n Goal 2: Make honey in the honeycomb. \nGoal 3: Find the bugs in the given code and fix them",
+            "required_blocks": "Move Forward, get Nectar, Make Honey"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Goal 1: collect the nectar from both flowers. \nGoal 2: Make honey in the honeycomb, this time we have to make 2 honey. \nGoal 3: Find the bugs in the given code and fix them",
+            "required_blocks": "Move Forward, Turn Right, Get Nectar, Make Honey"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Goal 1: Collect the nectar in 3 flowers. \nGoal 2: Make honey in 3 honeycombs.\n Goal 3: Find the bugs in the given code and fix them.",
+            "required_blocks": "Repeat Loop, Move Forward, Get Nectar, MAke Honey"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Goal 1: Collect the nectar in 5 flowers. \nGoal 2: Make honey in 5 honeycombs. \nGoal 3: Find the bugs in the given code and fix them.",
+            "required_blocks": "Repeat Loop, Move Forward, Get Nectar, MAke Honey, Turn Right, Turn Left"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Goal 1.This time we have a cloud with a ?(questionmark) on top, so we don't know if we have a flower or a honeycomb. The goal is to use conditionals to check what's underneath",
+            "required_blocks": "Repeat Loop, Move Forward, If/else, Get Nectat, Make Honey"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Goal 1.The purple flower has a different amount of nectar each time you run the puzzle. Use the While loop to get nectar.",
+            "required_blocks": "Move Forward, Turn Right, Get Nectar, While Loop"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Goal 1: Make honey in 3 honeycombs.\n Goal 2: Fix the bugs in the already given function.",
+            "required_blocks": "Function make 3 honey(Turn Right, Move Forward, Repeat Loop), Move Forward, make 3 honey function, Repeat Loop."
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Goal 1: Get the nectar from both flowers.\n Goal 2: The function is done correctly but it is not used correctly. The goal is to use the function correctly",
+            "required_blocks": "Function get 5 nectar(Repeat Loop, Get Nectar), Move Forward, get 5 nectar function, Turn Left"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Goal 1: Make honey in 3 honeycombs, but each honeycomb has a different availability for honey.",
+            "required_blocks": "Function make all honey(While Loop, Make Honey), Move Forward, Make all honey function,Turn Right"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Find the errors and fix them.",
+            "required_blocks": "repeat 4 times do(move forward(repeat 3 times do(get nectar))"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Find the errors and fix them.",
+            "required_blocks": "repeat 5 times do(move forward(repeat 2 times do(get nectar))"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Fix the code.",
+            "required_blocks": "repeat 3 times do(move forward(repeat 3 times do(get nectar)move forward(repeat 3 times do(get nectar))"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Multiple Choice:you have to choose which function work to make the bee get the honey and get nectar from 2 flowers with 2 nectar and 2 honeycomb with 2 honey",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 15: Bounce",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 15",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Move the paddle using the left arrow to reach the finish target.",
+            "required_blocks": "when left arrow, move left"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "1.Move the paddle to reach both finish targets.",
+            "required_blocks": "when left arrow, move left\nwhen right arrow,move right"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Move the paddle to the finish target at the top.",
+            "required_blocks": "when up arrow, move up"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "1.Move the paddle to all four finish targets to complete puzzle.",
+            "required_blocks": "when left arrow, move left\nwhen right arrow,move right\nwhen up arrow, move up\nwhen down arrow,move down"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.a ball flying down towards the paddle. Attach a block to the \"when ball hits paddle\" block to ensure the ball reaches the finish target.",
+            "required_blocks": "when ball hits paddle,bounce ball,play hit sound"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.the finish target is on the top.",
+            "required_blocks": "when ball hits paddle,bounce ball\nwhen ball hits wall,bounce ball"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.bounce the ball untill it hits the finish target",
+            "required_blocks": "when left arrow, move left\nwhen right arrow,move right\nwhen ball hits paddle,bounce ball\nwhen ball hits wall,bounce ball"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "1.Keep the ball bouncing until it reaches the goal area. Once the ball gets into the goal, a point should be added to the score",
+            "required_blocks": "when left arrow, move left\nwhen right arrow,move right\nwhen ball hits paddle,bounce ball\nwhen ball hits wall,bounce ball\nwhen ball in goal, score point\nwhen ball misses paddle,score opponent point"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "1.Bounce the ball until it reaches the goal. When the ball enters the goal, add a point to the score and automatically launch a new ball to continue the game.",
+            "required_blocks": "when left arrow, move left\nwhen right arrow,move right\nwhen ball hits paddle,bounce ball\nwhen ball hits wall,bounce ball\nwhen ball in goal, score point,launch new ball\nwhen ball misses paddle,score opponent point,launch new ball"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "1.Create own bounce game, student can change all the visuals and rules",
+            "required_blocks": "when run\nwhen left arrow\nwhen right arrow\nwhen ball hits paddle\nwhen ball in goal\nwhen  ball misses paddle"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 16: Play Lab - Create a Story",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Make the dog say \"x\"",
+            "required_blocks": "say \"x\""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Make the dog say something and then have the cat say something afterwards",
+            "required_blocks": "actor x say \"x\""
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Write a program to make a dog move to the cat.",
+            "required_blocks": "move actor x right/left x pixels, actor x say \"x\""
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Write a program that makes adog move to a cat, and have the cat say \"hello\" when the dog reaches him.",
+            "required_blocks": "move actor x right/left x pixels, actor x say \"x\""
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Add a block to make the octopus happy.",
+            "required_blocks": "move right/left x pixels, set to x mood"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Create your own story",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 17: Play Lab:Create a Game",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 17: Play Lab:Create a Game",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://www.youtube.com/watch?v=GVl6cLxMmTs",
+            "description": "make the octopus say \"hello\"",
+            "required_blocks": "when actor clicked,say \"hello\""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Write a progam to amke Waddles(Main sprite which is a penguin) move around using the up/down/left/right keys to hit all the targets",
+            "required_blocks": "when left arrow,move left\nwhen right arrow,move right\nmove up arrow,move up\nmove down arrow,move down"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Use repeat forever do block to make actor(dinosaur) go down/up",
+            "required_blocks": "when left arrow,move left\nwhen right arrow,move right\nmove up arrow,move up\nmove down arrow,move down\nrepeat forever do(move actor 2 up 400 pixels,move actor 2 down 400 pixel)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Make Waddles(penguin)say \"Ouch\" and play a sound if he runs into the dinosaur",
+            "required_blocks": "when left arrow,move left\nwhen right arrow,move right\nmove up arrow,move up\nmove down arrow,move down\nrepeat forever do(move actor 2 up 400 pixels,move actor 2 down 400 pixel)\nwhen actor 1 touches actor 2,actor 1 say \"Ouch\",play hit sound"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Score a point when Waddles runs into the octopus and then move him with arrows until you score",
+            "required_blocks": "when left arrow,move left\nwhen right arrow,move right\nmove up arrow,move up\nmove down arrow,move down\nrepeat forever do(move actor 2 up 400 pixels,move actor 2 down 400 pixel)\nwhen actor 1 touches actor 2,actor 1 say \"Ouch\",play hit soundwhen actor 1 touches actor 3,score point"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "1.Change the background \n2.Change the speed of Waddles\n3.Move him with arrows until you score",
+            "required_blocks": "when run,set night backgroundmset actor 1 to a fast speed\nwhen left arrow,move left\nwhen right arrow,move right\nmove up arrow,move up\nmove down arrow,move down\nrepeat forever do(move actor 2 up 400 pixels,move actor 2 down 400 pixel)\nwhen actor 1 touches actor 2,actor 1 say \"Ouch\",play hit soundwhen actor 1 touches actor 3,score point"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.Create your own game.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 18: Internet",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/mFOUbqYv1Sc",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Choose the option that tells the most likely IP address code.org will take when you try to log on.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Choose the option that tells the page that the IP Adress 100.42.50.110 will take us to.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 19: Crowdsourcing",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/IqZMnfxqEfY",
+            "description": "",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Choose the option that tells which picture best represents crowdsourcing.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Choose the option that tells which activity would be best for practicing crowdsourcing.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 20: Digital Citizenship",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Discuss difference between private information and personal information, distinguishing what is safe and unsafe to share online.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Choose the option that tells which piece of information listed is okay to share on the internet.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 21: Artist:Patterns",
+        "description": "",
+        "levels": []
+      },
+      {
+        "name": "Lesson 3:",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1. Draw this square using a loop.\n2. Each side is 20 pixels long.",
+            "required_blocks": "when run(repeat 4 times(move forward by 20 pixels,turn right by 90 degrees)"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Draw 15 squares line up next to each other",
+            "required_blocks": "when run(repeat 15 times do(repeat 4 times do(move forward by 20 pixels,turn right by 90 degrees)move forward by 20 pixels)"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Draw a grid by repeating squares in rows and columns until the whole area is filled.",
+            "required_blocks": "when run(repeat15 tmes(repeat 15 times do(repeat 4 times do(move forward by 20 pixels,turn right by 90 degrees)move forward by 20 pixels)move bckward by 300 pixels,turn right by  90 degrees,move forward by 20 pixels,turn lef tby 90 degrees)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Draw diamond which has 50 pixel sides and angles of 120 and 60 degrees.",
+            "required_blocks": "repeat 2 times(move forward by 50 pixels,turn right by 120 degrees,move forward by 50 pixels,turn right by 60 degrees)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Make a row of 6 diamonds.",
+            "required_blocks": "repeat 6 times do(repeat 2 times(move forward by 50 pixels,turn right by 120 degrees,move forward by 50 pixels,turn right by 60 degrees),turn right by 180 degrees)"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Draw a grid by repeating diamonds in rows and columns until the whole area is filled.",
+            "required_blocks": "repeat 4 times do(repeat 6 times do(repeat 2 times(move forward by 50 pixels,turn right by 120 degrees,move forward by 50 pixels,turn right by 60 degrees),turn right by 180 degrees),jump backward by 100 pixels,turn right by 60 degrees,jump abckward by 250 degrees,turn left by 60 degrees)"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Draw A dense pattern of overlapping diamonds arranged in rows and columns. Each diamond is a rotated square, and they are placed close together with equal spacing to create a continuous crisscross pattern",
+            "required_blocks": "repeat 7 times do(repeat 6 times do(repeat 3 times(move forward by 50 pixels,turn right by 120 degrees,move forward by 50 pixels,turn right by 60 degrees),turn right by 180 degrees),jump backward by 100 pixels,turn right by 60 degrees,jump abckward by 250 degrees,turn left by 60 degrees)"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Draw this hexagon with 40 pixel sides and 60 degree angles",
+            "required_blocks": "repeat 6 timesdo(move forward by 40 pixels,turn right by 60 degrees"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Make a 3 hexagon in a row",
+            "required_blocks": "repeat 3 times(repeat 6 timesdo(move forward by 40 pixels,turn right by 60 degrees),jump forward by 80 degrees)"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Draw two rows of hexagon",
+            "required_blocks": "repeat 2 times(repeat 3 times(repeat 6 times do(move forward by 40 pixels,turn right by 60 degrees),jump forward by 80 degrees)turn right by 60 degrees,jump forward by 40 pixels,turn left by 60 degrees,jump backward by 320 degrees)"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Create a grid by repeating hexagon in rows and columns",
+            "required_blocks": "repeat 4 times do(repeat 2 times,set color,random color(repeat 3 times(repeat 6 times do(move forward by 40 pixels,turn right by 60 degrees),jump forward by 80 degrees)turn right by 60 degrees,jump forward by 40 pixels,turn left by 60 degrees,jump backward by 320 degrees),jump backward by 120 pixels)"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Draw a half circle",
+            "required_blocks": "repeat 60 times(move forward by 1 pixels,turn right by 3 degrees)"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Draw a wave line",
+            "required_blocks": "repeat 4 times(repeat 60 times(move forward by 1 pixels,turn right by 3 degrees),repeat 60 times(move forward by 1 pixels,turn left by 3 degrees))"
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "Draw a frame of wave line",
+            "required_blocks": "repeat 4 times(repeat 4 times(repeat 60 times(move forward by 1 pixels,turn right by 3 degrees),repeat 60 times(move forward by 1 pixels,turn left by 3 degrees)),repeat 30 times do(move forward by 1 pixles,turn left by 3 degrees))"
+          },
+          {
+            "name": "Stage 15",
+            "index": 15,
+            "video_url": "",
+            "description": "Free play",
+            "required_blocks": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Course 4",
+    "description": "Content from Course 4-Table 1.csv",
+    "lessons": [
+      {
+        "name": "Lesson 2 - Maze and Bee",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Guide the character(the red bird) through the maze to reach the goal(the green pig) by using the correct sequence of commands while avoiding obstacles and walls.",
+            "required_blocks": "move forward,turn left,turn right"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Guide the character(the red bird) through the maze to reach the goal(the green pig) by using the correct sequence of commands while avoiding obstacles and walls.",
+            "required_blocks": "move forward,turn left,turn right"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "https://youtu.be/mgooqyWMTxk",
+            "description": "Guide the character(the red bird) through the maze to reach the goal(the green pig) by using the correct sequence of commands while avoiding obstacles and walls.\nTry to use the repeat block",
+            "required_blocks": "move forward,turn left,turn right, repeat loop"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Guide the character(the red bird) through the maze to reach the goal(the green pig) by using the correct sequence of commands while avoiding obstacles and walls.\nTry to use the repeat block",
+            "required_blocks": "move forward,turn left,turn right, repeat loop"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Help the bee collect nectar from all the flowers by giving the correct set of instructions",
+            "required_blocks": "move forward,turn left,turn right, repeat, get nectar"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "The goal is to help the bee complete its journey from nectar collection to honey-making.",
+            "required_blocks": "move forward,turn left,turn right, repeat, get nectar, make honey"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "https://youtu.be/rY-orPefe8I",
+            "description": "The goal is to help the bee complete its journey from nectar collection to honey-making.Use the if block to check whether there is a flower under the cloud.",
+            "required_blocks": "move forward,turn left,turn right, repeat, get nectar,if conditions"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "https://youtu.be/8BaTjib4UEM",
+            "description": "The goal is to help the bee complete its journey from nectar collection to honey-making.Use the if/else block to collect one nectar if it's a flower,else make one honey.",
+            "required_blocks": "move forward,turn left,turn right, repeat, get nectar,make honey,if/else conditions"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "The goal is to help the bee complete its journey from nectar collection to honey-making.Use the if/else block to collect one nectar if it's a flower,else make one honey.",
+            "required_blocks": "move forward,turn left,turn right, repeat, get nectar,make honey,if/else conditions"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 3 - Artist",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/MUavAHn-QUg",
+            "description": "Use a loop to draw a square efficiently by repeating a set of drawing instructions (move and turn) four times.",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Use a loop to draw a square efficiently by repeating a set of drawing instructions (move and turn) four times.",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Run the code to test it and then repeat it enough times to complete the drawing",
+            "required_blocks": "repeat, move forward by x pixels, move backward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Fill in the repeat block with that number to create a circle of colors",
+            "required_blocks": "repeat, move forward by x pixels, move backward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Replicate the existing pattern of 3 triangles on the opposite side to complete a symmetrical design using efficient code and loops",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "https://youtu.be/zRwifFUFJC8",
+            "description": "Complete the code to draw equilateral triangles.You should determine how many times to repeat the loop and how much to turn (in degrees)",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.Draw one triangle:The code is given for a triangle.\n2.Drawing 10 Triangles: to draw 10 triangles, you will use an outer loop that repeats 10 times. Each time the loop runs, the inner loop will run 3 times to complete one triangle.\n  After each triangle, you should move the starting point slightly by turning so the triangles don't overlap.",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "1.Draw one triangle:The code is given for a triangle.\n2.Draw the sun: by looping the whole block of code multiple times.",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "1.Draw one triangle:(Move forward a certain distance, turn right 120 degrees)\n   This needs to be repeated 3 times to form a complete triangle.\n2.The main goal is to draw three triangles 120 degrees apart(you should use nested loops).",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "1.The code for creating a polygon is given.\n2.You should loop this design 10 times and make sure to turn between each shape that's drawn.",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "1.There is the code for an interesitng shape.\n2.You need to create some other shapes by repeating the code several times and turning between each iteration.",
+            "required_blocks": "repeat, move forward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "You need to create a given shape using  the blocks that are given.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "You need to create a given shape using the the blocks that you've learned so far.\nTry to make something similiar or create something all your own.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels"
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "There is a blank canvas where you can design anything you want.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 4 - Unplugged: Envelope Variables",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/DI7DprN4FtE",
+            "description": "",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 5 - Unplugged: Madlibs",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/TctGRrUdkcc",
+            "description": "",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 6 - Artist: Variables",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "You have to draw a triangle (it has to be exactly 100 pixels long on each side).",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/_MkLbhIuvAM",
+            "description": "You have to draw a triangle using the created variable \"length\". The code is given ,you just need to assing a value to the length variable.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, jump forward/backward by x pixels,length(variable)"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "You have to draw a line of triangles. The code is given and you need to fill the repeat block with the number of triangles and to assing a value to length variable.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, length (variable)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "There is the code for drawing a pattern made of  hexagon arranged in a circular or flower. You just need to set the length variable to 60 to make that cool design.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, length(variable)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "There is the code for drawing a pattern made of  pentagon arranged in a circular or flower. You just need to initialize  the length variable correctly to make that cool design.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, length (variable)"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "https://youtu.be/BGeT8IyKd2M",
+            "description": "1.There is the code for drawing a rectangle that is twice as tall as it is wide.\n2.You should set the width to 100(this value is given), then use width for the short sides and width * 2 for the tall sides to draw a rectangle that's twice as tall as it is wide.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, length (variable)"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "There is some code that can draw any regular polygon and there's a new variable called sides that is set to 4. You should use the sides variable to turn the right amount regardless of how many sides are in the polygon",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "There is some code that can draw a polygon.You should use variable sides with a value 6 in order to draw a hexagon",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "You should draw a pentagon with sides of length 150. Here too you should similarly use the sides variable with the value 5",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "There is some code that can draw a polygon. Experiment with the number of sides this shape has.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "There is some code that you need to change the value of sides variable in order to draw a picture made of squares.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "There is some code that can draw a pattern made of 5 pentagons. You should set the sides variable to 5(for a pentagon) and length variable to 75(for the side lenght) and then use them inside the repeat loop",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "You need to draw the given pattern. To do that you should:\n1.Set the number of sides variable in the sides variable\n2.Calculat the length of each side by dividing 300 by sides (300 is the perimeter of each polygon)\n3.Use the math block(division) and plug in 300 / sides\n4.Assign the result to the length variable using a set length to block",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "There is the code for drawing a pattern.You should experiment with changing the values of variables to draw cool patterns",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 15",
+            "index": 15,
+            "video_url": "",
+            "description": "Based on whay you've leraned so far you should try to draw the given pattern or create something all your own.",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          },
+          {
+            "name": "Stage 16",
+            "index": 16,
+            "video_url": "",
+            "description": "There is a blank canvas where you can create whatever you want",
+            "required_blocks": "repeat, move forward/backward by x pixels, turn right/left by x degrees, sides(variable)"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 7 - Play Lab: Variables",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Run the game without writing code.",
+            "required_blocks": "set x to 1, set x to 3, when down/up arrow, move actor x down/up,"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/xPlGz7WPYH4",
+            "description": "Change the variable to make sure you can collect more flags than Cat.",
+            "required_blocks": "set x to 1, set x to 3, when down/up arrow, move actor x down/up,"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "No code changes needed. Use the left/right arrows to move and the up arrow to jump. Try to collect all the flags.",
+            "required_blocks": "when left arrow, move left, when up arrow, move up x pixels, move down x pixels, when right arrow, move right"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Update the height variable to allow the dog to jump high enough to reach all the flags.",
+            "required_blocks": "set x to 100, when down/up/left/right arrow,  move up/down x pixels,"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Let's build a game! First we'll need a score. Rebuild the code that you saw in the last level to set the score to 10.",
+            "required_blocks": "set x to 0"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Add 1 to points each time the Dog hits the Cat with pie. Use the \"when actor 2 touches anything\" event and set points = points + 1. Reach 10 points to pass. Use the right arrow to throw pie.",
+            "required_blocks": "set x to 0, when actor x touches anything, play x sound, when right/left arrow, play x sound, actor x throw pie right/left"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Lose 1 point whenever Dog (actor 1) gets hit by a sandwich from Cat (actor 2). Start with 10 points and let the score drop to 0 to pass the level.",
+            "required_blocks": "set x to 10, when right/left arrow, play x sound, actor x throw pie right/left, when actor x touches anything,"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Free Play time.",
+            "required_blocks": "repeat forever, when right/left/up/down arrow, play x sound, actor x throw purple hearts left/right, set score x,"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 8- Unplugged: For Loop Fun",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/mX857v5B4gE",
+            "description": "",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 9 - Bee: For Loop",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Use a loop to collect the nectar from each flower.\n1.Move forward to reach each flower\n2.At each flower, collect nectar\n3.Use a loop to repeat this process instead of writing the same actions multiple times",
+            "required_blocks": "repeat loop, move forward , get nectar"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Add the code necessary to make sure the bee collects all the nectar.\n\n1.Move the bee to each flower\n2.Use get nectar at each flower that has nectar.\n3.Ensure that no flower is skipped and all nectar is collected before reaching the end",
+            "required_blocks": "repeat loop, move forward , get nectar"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "https://youtu.be/MZqrhK9av3M",
+            "description": "Use a for loop to :\n1.move the bee through all the flowers and\n2. collect the correct amount of nectar from each one",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Identify the largest amount of nectar on a flower and replace the ??? in the for loop with that number. This ensures the bee collects the correct amount of nectar from each flower using the loop counter efficiently",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Use two repeat loops inside a for loop to make the bee move forward and collect nectar based on the current flower number. The bee should move forward counter times, then collect nectar counter times at each flower. Replace ??? with the total number of flowers to complete the loop",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Use a for loop that counts down from 5 to 1 to collect nectar. At each flower, the bee should collect nectar equal to the loop counter, then move forward to the next flower. Replace the ??? with 5 (start) and 1 (end), and adjust the loop to count down correctly",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Use a for loop with an increment of 2 to collect nectar from every second flower. The loop should start at the correct flower, skip every other one by increasing the counter by 2, and collect nectar at each visited flower.",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Set the increment in the for loop to collect  the exact nectar amounts on the flowers",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Use a for loop and the counter variable to help the bee collect the correct amounts of nectar (3, 6, 9, 12, 15) from each flower. Combine the loop with a math block to create a smarter and shorter solution",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Use a for loop that counts down to help the bee collect nectar in reverse order (15, 12, 9, 6, 3). Adjust the loopâs starting point, ending point, and decrement value to match the pattern. Focus on how the counter changes with each loop to control how much nectar to collect at each flower",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Apply everything you've learned about loops, counters, and increments to guide the bee through a complex path and collect the correct amount of nectar. Focus on setting up the for loop to match the collection pattern and movement path",
+            "required_blocks": "for loop, repeat loop, move forward, get nectar"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 10 - Artist: For Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Use a repeat block to draw a triangle that is 50 pixels wide.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, repeat x times, set color (color), set color(random color)"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "https://youtu.be/AIlCLjjm8M0",
+            "description": "Place the code for drawing a triangle inside a for loop that counts from 50 to 100 in steps of 10.",
+            "required_blocks": "for counter from x to x count by x, repeat x times, move forward by x pixels, turn left/right by x degrees"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Use the last puzzle as a guide. Draw triangles with side lengths from 20 to 200, increasing by 20 each time. Put the triangle-drawing code inside a for loop.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x degrees, repeat x times, set color (color), set color(random color)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "How would you modify what youâve learned to draw squares with side lengths starting at 15 pixels and increasing by 15, up to 300 pixels?",
+            "required_blocks": "for counter from x to x count by x"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Just one small change to the code from the last image can create this drawing.",
+            "required_blocks": "for counter from x to x count by x"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Use some code from the last level, but change the turn to 89 degrees to make a twisted square spiral.",
+            "required_blocks": "set color (color)"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "In  the previous stage we had to draw a square shape, in this stage we have to make some small changes to make an interesting shape.",
+            "required_blocks": "set color (color), set width x, for counter from x to x count by x, move forward by x pixels, turn right by x degrees"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Use the counter variable in a for loop to control the number of sides in each shape. Start with a triangle (3 sides) and increase by 1 side each time, ending with a decagon (10 sides). Each side should be 100 pixels long.",
+            "required_blocks": "for counter from x to x count by x, repeat x times, move forward by x pixels, turn right by x degrees"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Use the counter variable in a for loop to control the number of sides in each shape. Start with a triangle (3 sides) and increase by 1 side each time, ending with a decagon (10 sides). Each side should be 100 pixels long.",
+            "required_blocks": "for counter from x to x count by 2, repeat x times, move forward by x pixels, turn right by x degrees"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Use everything youâve learned to draw a spiral made of polygons. Each shape should have 40-pixel sides.\nTo create the spiral effect, do not close the polygons â each shape should have one fewer side than usual.",
+            "required_blocks": "for counter from x to x count by 2, repeat x times, move forward by x pixels, turn right by x degrees"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Use what youâve learned so far to create a pattern. You can try to recreate the image shown, or use it as inspiration to design your own unique creation.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Use for loops to create your own drawings.\nWeâve included some helpful variables to get you started â try them out in your code.",
+            "required_blocks": "for counter from x to x count by 2, repeat x times, move forward by x pixels, turn left by x degrees, jump forward by x pixels"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 11: Play Lab - For Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Make a dog speak every number from 1 to 100. Use a for loop and the counter block to speak the counter variable each time the loop is run.",
+            "required_blocks": "count with x from x to x by x, actor x say \"x\" for x seconds"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Help Olive the Cat count only the odd numbers from 1 to 101.",
+            "required_blocks": "count with x from x to x by x, actor x say \"x\" for x seconds"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Try making Pirate Pegleg count from 10 up to 1000, adding 10 at a time.",
+            "required_blocks": "count with x from x to x by x, actor x say \"x\" for x seconds"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Two characters are racing. Each one moves a number of steps based on their own counter variable in a for loop.\nThe counters currently have different increments, so one moves faster than the other.",
+            "required_blocks": "count with x from x to x by x, actor x say \"x\" for x seconds, play x sound, set actor x to a x image"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Adjust the interval on the for loops so that the two characters end in the exact same place.",
+            "required_blocks": "count with x from x to x by x, actor x say \"x\" for x seconds, play x sound, set actor x to a x image"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Edit the for loop to create a game that's fun for you to play.",
+            "required_blocks": "count with x from x to x by x, actor x say \"x\" for x seconds, set actor x to a x image, play x sound, x point, end game as a x, when actor clicked, show title screen title \"x\" text \"x\", set to the x position, vanish actor x, wait for x seconds"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Use everything you've learned so far to make a game that includes a for loop.",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 12: Artist - Functions",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Draw a square that is 100 pixels in length, using a repeat loop",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x pixels, repeat x times"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Draw 3 squares 20 pixels apart from one another. Each square is 100 pixels in size",
+            "required_blocks": "move forward/backward by x pixels, turn right/left by x pixels, repeat x times, jump forward/backward by x pixels"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "https://youtu.be/EoUnJB_BVLc",
+            "description": "Use the new function block to define a square-drawing function.\nClick \"Edit\" and add code to draw a square with 100-pixel sides.\nWhen you're done, click \"Close\" to return to your main program.",
+            "required_blocks": "repeat x times, move forward/backward by x pixels, turn left/right by x degrees, jump forward/backward by x pixels, draw a square"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Use the draw a square function to draw this pattern.",
+            "required_blocks": "turn right/left by x degrees, repeat x times, draw a square"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Click âEditâ to open the draw a square function block.\nModify the code so that it draws a square with 200-pixel sides.\nWhen youâre done, click âCloseâ to return to your program.",
+            "required_blocks": "move forward/backward by x pixels, turn right/left  by x degrees, repeat x times"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Edit the draw a triangle function definition to draw a triangle with 100 pixel sides",
+            "required_blocks": "move forward/backward by x pixels, turn right/left  by x degrees, repeat x times"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Draw a house",
+            "required_blocks": "move forward/backward y x pixels, turn right/left by x degrees, draw a triangle, draw a square, repeat x times"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Create a new function called draw a line of squares that draws six squares in a row.\nUse the draw a square 20 function we provided to build your new function.",
+            "required_blocks": "jump forward/backward by x pixels, repeat x times, draw a square"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Use the draw a line of squares function from the last puzzle to draw this pattern.",
+            "required_blocks": "jump forward/backward by x pixels, repeat x times, draw a square, turn left/right by x degrees, draw a square, draw a line of squares, set color (random color), set color (color)"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Draw a star shape",
+            "required_blocks": "jump forward/backward by  x pixels, move forward/backward by x pixels, turn left/right by x degrees, repeat x times, draw a square, draw a line of squares, set color (random color), set color (color), set width x"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Use what you've learned in this stage and others to figure out how to make an interesting shape.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Use what you've learned in this stage and others to figure out how to make an interesting shape.",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Free play-time",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 13: Unplugged: Songwriting with Parameters",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/28ujn3adHBA",
+            "description": "",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 14: Artist: Functions with Parameters",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Define a function that draws a square with 50-pixel sides",
+            "required_blocks": "function-Draw square(repeat, move forward by X pixels, turn left by X degrees )"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Create a drawTriangle() function from scratch that draws a triangle with 50-pixel sides",
+            "required_blocks": "function-Draw a triangle(repeat, move forward by X pixels, turn left by X degrees)"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Use the drawTriangle() function to draw 5 triangles in a row, each spaced 30 pixels apart",
+            "required_blocks": "repeat, draw a triangle(repeat, move forward by X pixels, turn left by X degrees), jump forward by X pixels"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Use functions to draw 3 triangle",
+            "required_blocks": "jump forward by X pixels, functrion-Draw a triangle with length(parameters length, repeat, move forward by X pixels, turn left by X degrees)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Replace the ??? in the length parameter input block with 100 to draw a pentagon with 100-pixel sides",
+            "required_blocks": "function-Draw a pentagon with length X(parameters,repeat, move forward by X pixels, turn left by degrees)"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Fill in the length parameter to draw these shapes:\n1.Square and triangle: 100 pixels for each side.\n2.Hexagon: 75 pixels for each side",
+            "required_blocks": "jump forward by X pixels,  functions draw a triangle & square & hexagon with length X(parametes,repeat, move forward by X pixels, turn left by X degrees)"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Complete the drawing by making each triangle 25 pixels larger than the last, starting with a triangle that has 25-pixel sides.",
+            "required_blocks": "jump forward by X pixels,  functions draw a triangle  with length X(parametes,repeat, move forward by X pixels, turn left by X degrees)"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Fix the triangle function code, then use it to draw triangles with side lengths of 25, 50, and 75 pixels",
+            "required_blocks": "for counter from X to X count by X, function draw a triangle with length X(parameters, repeat, move forward bu X pixels, turn left by X pixels), jump forward by X pixels"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Edit the drawSquare function to include a length parameter, then use it to draw 3 squares with side lengths of 25, 50, and 75 pixels. Each square's left-hand corner should be 100 pixels away from the last",
+            "required_blocks": "for counter from X to X count by X, function draw a square with length X(parameters, repeat, move forward bu X pixels, turn left by X pixels), jump forward by X pixels"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "Create a drawHexagon function block with a length parameter to draw a hexagon with 100-pixel sides",
+            "required_blocks": "function Draw a hexagon with length(repeat, move forward by X pixels, turn left by X degrees)"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Edit the function to use the sides parameter to draw the shape correctly",
+            "required_blocks": "repeat, function Draw a polygon with sides X & length X(parameters, repeat, move forward by X pixels, turn left by X degrees), turn right by X degrees"
+          },
+          {
+            "name": "Stage 12",
+            "index": 12,
+            "video_url": "",
+            "description": "Complete the drawing using shapes with sides that are all 100 pixels long",
+            "required_blocks": "function Draw a polygon with length X & sides X (parameters, repeat, move forward by X pixels, turn right by X degrees)"
+          },
+          {
+            "name": "Stage 13",
+            "index": 13,
+            "video_url": "",
+            "description": "Use a for loop with your function to recreate the design shown in the image",
+            "required_blocks": "for counter from X to X count by X, function Draw a polygon with length X and sides X(parameters, repeat, move forward by X pixels, turn right by X degrees)"
+          },
+          {
+            "name": "Stage 14",
+            "index": 14,
+            "video_url": "",
+            "description": "1.Edit the drawPolygon function to add a length parameter \n2.Use the equation to make shapes the same size",
+            "required_blocks": "for counter from X to X count by X, function Draw a polygon with length X and sides X(parameters, repeat, move forward by X pixels, turn left by X degrees), jump forward by X pixels"
+          },
+          {
+            "name": "Stage 15",
+            "index": 15,
+            "video_url": "",
+            "description": "Edit draw a spiral edge to use length and sides parameters, then recreate these shapes.\n1.The smallest side length of the square is 5 pixels.\n2.The smallest side length of the triangle is 10 pixels.\n3.The smallest side length of the hexagon is 2 pixels.\n4.All increase to 100 pixels.",
+            "required_blocks": "set width X, set color, for counter from X to X count by X, function Draw a spiral edge with length X and sides X(parameters, move forward by X pixels, turn left by X degrees), jump forward by X pixels,turn left by X degrees"
+          },
+          {
+            "name": "Stage 16",
+            "index": 16,
+            "video_url": "",
+            "description": "Free- Play",
+            "required_blocks": ""
+          },
+          {
+            "name": "Stage 17",
+            "index": 17,
+            "video_url": "",
+            "description": "Free- Play",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 15: Play Lab - Functions with Parameters",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Use the jump function, which makes your character jump up 100 pixels, to collect all the flags.\nMove the dog using the arrow keys and make sure to use the jump function to reach each flag.",
+            "required_blocks": "when up/down/left/right arrow, move left/right, function jump(move up/down x pixels)"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "We need to adjust the jump function so the dog can jump different heights.\nAdd a height parameter to the jump function.\nUse the up arrow to make the dog jump 200 pixels.\nUse the down arrow to make the dog jump 100 pixels.",
+            "required_blocks": "when up/down/left/right arrow, move left/right, function jump(move up/down x pixels)"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Weâve added a new actor parameter to the jump function, allowing it to work with different characters. Edit the jump function to use the actor parameter so that the function makes the correct actor (starting from 1) jump based on the actor number passed in.",
+            "required_blocks": "function jump (move actor x up/down x pixels)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Edit function patrol to move cat up 400 pixels and then down 400 pixels.",
+            "required_blocks": "move actor x up/down x pixels, repeat forever, function patrol ()"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "https://youtu.be/e9qjXKaeDHg",
+            "description": "Edit the the patrol function to add an actor parameter, so that we can call it for each of the actors on the screen.",
+            "required_blocks": "move actor x up/down x pixels, repeat forever, function patrol (move actor x up/down x pixels)"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Add another parameter called speed to the patrol function. Try using a set speed block with the new speed parameter to help Penguin get both flags before the other sprites even get one.",
+            "required_blocks": "move actor x up/down x pixels, set actor x speed x, repeat forever, patrol(set actor x speed x, move actor x up/down x pixels)"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Take a look at the provided code and figure out what each block does.\nOnce you're done, use the arrow keys to control the Dog and collect all the flags.",
+            "required_blocks": "when up/down/left/right arrow, move actor x up/down/left/right, function jump(move up/down x pixels), repeat forever do (patrol actor(2) speed (5)),repeat forever do (patrol actor(3) speed (4)),repeat forever do (patrol actor(4) speed (3)),repeat forever do (patrol actor(5) speed (2))"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "send Dog back to the top-left ONLY if Dog touches any of the other actors.",
+            "required_blocks": "when actor 1 touches any actor,set actor 1 to the top left position,\nwhen up/down/left/right arrow, move actor x up/down/left/right, function jump(move up/down x pixels), repeat forever do (patrol actor(2) speed (5)),repeat forever do (patrol actor(3) speed (4)),repeat forever do (patrol actor(4) speed (3)),repeat forever do (patrol actor(5) speed (2))"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "score a point when actor 2 you touch anything ,lose a point when actor 2 touches anything",
+            "required_blocks": "when run(set player_score)to 0\nwhen actor 1 touches anything(score_points,points(-1),play lose points sound)\nwhen actor 2 touches anything(score_points,points(1),play lose points sound)\nfunction score_points(set player_score to(player_score+points))"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "When the player reaches a score of 6, the level automatically changes to the next one",
+            "required_blocks": "when run(set actor 1 to a small size,set actor 2 to a small size,set hardcourt background,set player_score to  0,set level to 1)\nrepeat forever do(if(player_score>6)do(levelu_up))\nlevel up(set level to(level+1),set_player to 0,set actor 2 speed enemy_speed+1,set random background)"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "free play",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 16: Bee: Functions with parameters",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Collect all the nectar from each flower using the get 3 nectar block(This function turns left, moves forward twice to reach a flower, collects 3 nectar, moves back to the starting position, and turns right to face the original direction)\n2.Use turns and moves correctly to reach each flower.\n3.Return to the original starting location after collecting all nectar.",
+            "required_blocks": "get 3 nectar function, move forward/backward, get nectar, turn right/left,repeat loop"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Modify the get 3 nectar function so that the bee turns right instead of left before moving to the flower.",
+            "required_blocks": "get 3 nectar function, move forward/backward, get nectar, turn right/left,repeat loop"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Edit the get 3 nectar function to accept a parameter called direction\n2.Use the variables left and right to control the beeâs turning direction dynamically.\n3,Make sure the bee turns the correct way based on the direction passed into the function\n4.Collect 3 nectar from each flower (on both sides of the path)\n5.Use functions with parameters to reduce repetition and write cleaner code",
+            "required_blocks": "get 3 nectar function with parameter direction , move forward/backward, get nectar, turn right/left,repeat loop,if/else,,left and right variables,"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "1.Use your updated get 3 nectar function to collect nectar from all flowers.\n2.Pass the correct direction (left or right) as a parameter each time you call the function.\n3.Move correctly along the path and stop at each flower.\n4.Apply the left and right variables effectively to control turns",
+            "required_blocks": "get 3 nectar function with parameter direction ,left and right variables, move forward/backward, get nectar, turn right/left,repeat loop,if/else"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "1.Create a new function called get 5 nectar from scratch.\n2.Add a parameter to the function named direction (to decide left or right turn).\n3.Use the direction parameter inside the function to turn the bee the correct way.\n4.Move the bee to the flower, collect 5 nectar, and return to the path.\n5.Call the new function multiple times with the correct left or right argument to collect nectar from all flowers.",
+            "required_blocks": "get 5 nectar function with parameter direction ,left and right variables, move forward/backward, get nectar, turn right/left,repeat loop,if/else"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Add a second parameter to your get 5 nectar function (e.g., nectar units) to control how many nectar to collect.",
+            "required_blocks": "get 5 nectar function with parameters (direction, nectar units) ,left and right variables, move forward/backward, get nectar, turn right/left,repeat loop,if/else"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "1.Use your updated function that includes two parameters:\n   -direction (left or right)\n   -nectar units (how much nectar to collect)\n2.Move the bee correctly along the path to each flower.\n3.Call your function multiple times, changing the direction and nectar amount for each flower.\n4.Collect all the nectar from every flower shown (5, 10, 15, 20, 25, and 30 units).",
+            "required_blocks": "get 5 nectar function with parameters (direction, nectar units) ,left and right variables, move forward/backward, get nectar, turn right/left,repeat loop,if/else"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Your bee has to handle both nectar and honey. Your function should first collect the nectar, then make the honey. Use the numbers youâre given to know how many times to do each",
+            "required_blocks": "get nectar/honey function with parameters (direction, nectar units,honey) ,left and right variables, move forward/backward, get nectar, turn right/left,repeat loop"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 17: Unplugged: Binary",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "https://youtu.be/dzHlZV53VfY",
+            "description": "",
+            "required_blocks": ""
+          }
+        ]
+      },
+      {
+        "name": "Lesson 18 - Artist Binary",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Use the draw binary block correctly.\n2.Type the binary pattern \"01010101\" inside the block",
+            "required_blocks": "draw binary"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Run this code to see how the artist uses binary to draw this pattern.",
+            "required_blocks": "draw binary, repeat loop"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "1.Analyze the image to recognize the repeating pattern in each row.\n2.Identify which binary string matches the pattern shown in the image.\n 1 turns a square on (yellow),\n 0 leaves it off (black).\n3.Choose the correct binary string from the options provided.\n4.Use a repeat loop (8 times) to draw the same row pattern across all 8 rows.\n5.Run the code to confirm the final image matches the pattern.",
+            "required_blocks": "draw binary, repeat loop"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "You need to find a 3-digit binary pattern that repeats to make the gievn image. Use that small pattern inside a loop to fill the whole row.",
+            "required_blocks": "draw binary, repeat loop"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "You're given the code for a frowny face. Your mission is to turn it into a smiley face by changing the order or content of the binary rows",
+            "required_blocks": "draw binary"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "The same row appears over and over! Look closely and figure out what binary code (with six digits) makes that row, then repeat it 11 times to match the full design",
+            "required_blocks": "draw binary, repeat loop"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Find a small binary pattern that repeats over and over to make the full image. Try to use the shortest one possible",
+            "required_blocks": "draw binary, repeat loop"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Each binary code is a row in the picture. Keep drawing more rows using binary so the full shape is finished and symmetrical",
+            "required_blocks": "draw binary"
+          },
+          {
+            "name": "Stage 9",
+            "index": 9,
+            "video_url": "",
+            "description": "Just press Run and watch the drawing. Each row uses more 1s and fewer 0s",
+            "required_blocks": "draw binary, repeat loop,for loop"
+          },
+          {
+            "name": "Stage 10",
+            "index": 10,
+            "video_url": "",
+            "description": "This is a free-play stage.You can change the code to make a different shape or keep this one and add your own twist. Try anything â itâs all about using what you've learned!â",
+            "required_blocks": "draw binary, repeat loop,for loop"
+          },
+          {
+            "name": "Stage 11",
+            "index": 11,
+            "video_url": "",
+            "description": "Free Play: Here's a blank canvas for you to draw on",
+            "required_blocks": "draw binary, repeat loop,for loop"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 19 : Super Challenge - Variables",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "1.Add blocks to make Dog move with arrow keys\n2.Add points when Dog tags Cat (2 points) or Penguin (3 points)\n3.Subtract points when Cat and Penguin tag each other\nGet exactly 10 points to win",
+            "required_blocks": "set points to X, when up/down/ right/left arrow, move actor X up/down/right/left X pixels, when actor X touches X"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Solve the Variables Super Challenge using the fewest number of blocks possible",
+            "required_blocks": "set X to X, repeat, move forward, turn right, get nectar, make honey"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Solve the Variables Super Challenge using the fewest number of blocks possible",
+            "required_blocks": "set X to X, repeat, move forward, turn right, get nectar, make honey"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Solve the Variables Super Challenge and create the pattern, using everything you've learned",
+            "required_blocks": "set widh X, set X to X, repeat, set color, move forward by X pixels, turn right/left by X degrees"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Solve the Variables Super Challenge and create the pattern, using everything you've learned",
+            "required_blocks": "set widh X, set X to X, repeat, set color, move forward by X pixels, turn right/left by X degrees, jump forward by X pixels"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Solve the Variables Super Challenge and create the pattern, using everything you've learned",
+            "required_blocks": "set widh X, set X to X, repeat, set color, move forward by X pixels, turn right/left by X degrees, jump forward by X pixels"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 20: Super Challenge - For Loops",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Get Scrat to his acorn using as few blocks as possible",
+            "required_blocks": "turn left/right, move forward, repeat x times, count with x from x to x by x"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "Get Scrat to his acorn using as few blocks as possible",
+            "required_blocks": "turn left/right, move forward, repeat x times, count with x from x to x by x"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Make the bee get nectar and make honey with the fewest number of blocks possible.",
+            "required_blocks": "move forward, turn right/left, get nectar, make honey, repeat x times, count with x from x to x b y x,"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "Make the bee get nectar and make honey with the fewest number of blocks possible.",
+            "required_blocks": "move forward, turn right/left, get nectar, make honey, repeat x times, count with x from x to x b y x,"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "Re-create an interesting drawing.",
+            "required_blocks": "move forward/backward by x pixels, jump forward/backward by x pixels, turn right/left by x degrees, set width x, set color (color), set color (random color), set alpha x, set color (rgb), repeat x times, for counter from x to x count by x"
+          },
+          {
+            "name": "Stage 6",
+            "index": 6,
+            "video_url": "",
+            "description": "Re-create an interesting drawing.",
+            "required_blocks": "move forward/backward by x pixels, jump forward/backward by x pixels, turn right/left by x degrees, set width x, set color (color), set color (random color), set alpha x, set color (rgb), repeat x times, for counter from x to x count by x"
+          },
+          {
+            "name": "Stage 7",
+            "index": 7,
+            "video_url": "",
+            "description": "Re-create an interesting drawing.",
+            "required_blocks": "move forward/backward by x pixels, jump forward/backward by x pixels, turn right/left by x degrees, set width x, set color (color), set color (random color), set alpha x, set color (rgb), repeat x times, for counter from x to x count by x"
+          },
+          {
+            "name": "Stage 8",
+            "index": 8,
+            "video_url": "",
+            "description": "Re-create a wave drawing.",
+            "required_blocks": "move forward/backward by x pixels, jump forward/backward by x pixels, turn right/left by x degrees, set width x, set color (color), set color (random color), set alpha x, set color (rgb), repeat x times, for counter from x to x count by x"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 21 : Super Challenge-Functions and Parameters",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "Write the function and get 3 honey where every honey has three of them",
+            "required_blocks": "function make honey up and over(move forward,turn right,move forward,make honey,make honey,move backward,turn left,move backward)\nwhen run(count with counter from 2 to 4 by 1 do(make honey up and over,turn left,repeat(counter) times do(move forward)turn right,repeat(counter) times do(move forward))"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "collect all the nectar form teh flowers, where the flower hs 3,9,12,21",
+            "required_blocks": "function get nectar parameter(dir,counter)(if dir=left do(turn left)else(turn right),repeat 3 times do(move forward),repeat counter times do(get nectar)repeat 3 times do(move backward),if dir=left do(turn right)else(turn left)\ncouter with counter from 3 to 21 by 3 do(move forward if path to the left do(get  nectar dir(left) counter (counter)),turn right,move forward,turn left,if path to the right do(get nectar dir(right),counter(counter)))"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "create a grid by repeating hexagon in rows and columns",
+            "required_blocks": "function draw a hexagon(repeat 6 times do(move forward by 40 pixels),turn right by 60 degrees))\nfunction shift down/backward(turn right by 60 degrees,jump forward by 40 pixels,turn left by 60 degrees,jump backward by 440 pixels))\nfunction draw a line of hexagons(repeat 3 times do(draw a hexagon,jump forward by 120 pixels))\nfunction shift down/forward(turn right by 60 degrees,jump forward by 40 pixels,turn left by 60 degrees,jump backward by 320 pixels))\n\nwhen run repeat 2 times(draw a line of hexagons,shit down/forward,draw a line of hexagons,shift down/backward)"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "draw a tiled pattern consisting of regular octagons arranged in rows and columns, with small squares placed between them to fill the spaces. The result is a repeating geometric design that combines two shapes in a connected, symmetric layout.",
+            "required_blocks": "function draw octagons parameters(numOctagons)(repeat numOctagons times do(draw an octagon,jump forward by 136 pixals)\nfunction draw an octagon(repeat 8 times do(move forward by 40 pixels,turn right by 45 degrees))\n\nwhen run(repeat 2 times do(draw octagons numOctagons(2),shift down,draw octagons numOctagons(2),shift down)draw octagons numOctagons(2)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "draw blue lines all over the screen untill all screen is blue than in smae pattern the color is changing to white, than draw a spiral with pink color",
+            "required_blocks": "for counter from 200 to 2 counter by 2 do(set color (color with red (255-counter),green(counter),blue(counter x 2))set width(counter/4),draw an octagon length (counter),turn left by 22.5 degrees))"
+          }
+        ]
+      },
+      {
+        "name": "Lesson 22 : Extra Challenge-Comprehensive",
+        "description": "",
+        "levels": [
+          {
+            "name": "Stage 1",
+            "index": 1,
+            "video_url": "",
+            "description": "maze of \"Frozen\" or \"Ice Age\" themed puzzles where the goal is to guide a character through a path to collect an acorn",
+            "required_blocks": "counter with counter from 7 to 2 to 1 do(repeat counter times do(move forward)turn left)"
+          },
+          {
+            "name": "Stage 2",
+            "index": 2,
+            "video_url": "",
+            "description": "maze of \"Frozen\" or \"Ice Age\" themed puzzles where the goal is to guide a character through a path to collect an item.",
+            "required_blocks": "repeat until acorn do(if path ahead do(move forward)else(if path to the left do(turn left,move forward)else(if path to the right do(turn right,move forward)))"
+          },
+          {
+            "name": "Stage 3",
+            "index": 3,
+            "video_url": "",
+            "description": "Bee Maze puzzle,a bee  must follow a path to collect nectar from flowers in a specific order or quantity,the quantity is 1,2,2,3,3,3,4,4",
+            "required_blocks": "counter with counter form 1 to 4 by 1 do(turn left,move forward,turn right,repeat 4 times do(if at flower do (repeat counter times do (get nectar))move forward)repeat  4 times do (move backward))"
+          },
+          {
+            "name": "Stage 4",
+            "index": 4,
+            "video_url": "",
+            "description": "where the bee must collect honey from honeycombs with a specific amount at each tile.",
+            "required_blocks": "counter with counter  from 0 to 8 by 2 do(counter with counter2 from 0 to 8 by 2 do(repeat counter+counter2)times do(make honey)move forward)repeat 5 times do (move backward),turn left,move forward,turn right)"
+          },
+          {
+            "name": "Stage 5",
+            "index": 5,
+            "video_url": "",
+            "description": "where the bee must collect honey from honeycombs with a specific amount at each tile.",
+            "required_blocks": "repeat 5 times do(repeat 5 times do (if at honeycomb do(while honey>0))move forward)repeat 5 times do (move backward)turn left,move forward,turn right)"
+          }
+        ]
+      }
+    ]
+  }
+]

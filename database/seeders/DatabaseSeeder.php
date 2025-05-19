@@ -15,9 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             CreateAdminsSeeder::class,
-            CourseSeeder::class,
-            LessonSeeder::class,
-            LevelSeeder::class
+            MainSeeder::class
         ]);
     }
 }
