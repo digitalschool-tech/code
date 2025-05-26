@@ -16,7 +16,7 @@ class CourseController extends Controller
      */
     public function index($id)
     {
-        $course = course::with("lessons.levels")->where("id", $id)->get()->toArray()[0];
+        $course = Course::with("lessons.levels")->where("id", $id)->get()->toArray()[0];
 
         return view("pages.course", compact("course"));
     }

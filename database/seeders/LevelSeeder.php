@@ -174,9 +174,9 @@ class LevelSeeder extends Seeder
     public function run()
     {
         foreach ($this->lessons as $lesson_title => $lesson){
-            $lesson_relation = lesson::where('name', $lesson_title)->get()->first();
+            $lesson_relation = Lesson::where('name', $lesson_title)->get()->first();
             foreach($lesson as $index => $level){
-                level::create([
+                Level::create([
                     "index" => $index + 1,
                     "lesson_id" => $lesson_relation->id,
                     "description" => $level["description"],

@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StorelevelRequest;
 use App\Http\Requests\UpdatelevelRequest;
-use App\Models\level;
-use App\Models\lesson;
+use App\Models\Level;
+use App\Models\Lesson;
 
 class LevelController extends Controller
 {
@@ -45,15 +45,15 @@ class LevelController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function show(level $level, $course_id, $lesson_id, $level_id)
+    public function show(Level $level, $course_id, $lesson_id, $level_id)
     {
-        $level = level::where("lesson_id", $lesson_id)->where("index", $level_id)->first();
+        $level = Level::where("lesson_id", $lesson_id)->where("index", $level_id)->first();
 
         if(empty($level)){
             abort(404);
         }
 
-        $lesson = lesson::where("id", $lesson_id)->with("levels")->first();
+        $lesson = Lesson::where("id", $lesson_id)->with("levels")->first();
         $levels = $lesson["levels"];
         return view("pages.level", compact("level", "levels"));
     }
@@ -61,10 +61,10 @@ class LevelController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\level  $level
+     * @param  \App\Models\Level  $level
      * @return \Illuminate\Http\Response
      */
-    public function edit(level $level)
+    public function edit(Level $level)
     {
         //
     }
@@ -73,10 +73,10 @@ class LevelController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \App\Http\Requests\UpdatelevelRequest  $request
-     * @param  \App\Models\level  $level
+     * @param  \App\Models\Level  $level
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdatelevelRequest $request, level $level)
+    public function update(UpdatelevelRequest $request, Level $level)
     {
         //
     }
@@ -84,10 +84,10 @@ class LevelController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\level  $level
+     * @param  \App\Models\Level  $level
      * @return \Illuminate\Http\Response
      */
-    public function destroy(level $level)
+    public function destroy(Level $level)
     {
         //
     }

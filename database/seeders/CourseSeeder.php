@@ -31,7 +31,7 @@ class CourseSeeder extends Seeder
     public function run()
     {
         foreach ($this->courses as $course_title => $course){
-            course::create([
+            Course::create([
                 "name" => $course_title,
                 "description" => $course["description"]
             ]);
