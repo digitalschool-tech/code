@@ -163,6 +163,7 @@
             
             // Update Livewire state and ensure UI is updated
             this.$nextTick(() => {
+                // Send data directly without additional serialization
                 this.$wire.set('{{ $getStatePath() }}', data);
                 
                 // Give extra time for UI to update before unlocking

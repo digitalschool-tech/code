@@ -18,7 +18,23 @@ class Level extends Model
         'description',
         'content',
         'lesson_id',
-        'index'
+        'index',
+        'player',
+        'goal',
+        'route',
+        'blocks'
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'player' => 'array',
+        'goal' => 'array',
+        'route' => 'array',
+        'blocks' => 'array',
     ];
 
     /**

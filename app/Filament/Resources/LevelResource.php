@@ -171,25 +171,11 @@ class LevelResource extends Resource
                                     return;
                                 }
                                 
-                                $player = [];
-                                if (!empty($record->player)) {
-                                    $player = json_decode($record->player, true) ?: [];
-                                }
-                                
-                                $goal = [];
-                                if (!empty($record->goal)) {
-                                    $goal = json_decode($record->goal, true) ?: [];
-                                }
-                                
-                                $route = [];
-                                if (!empty($record->route)) {
-                                    $route = json_decode($record->route, true) ?: [];
-                                }
-                                
-                                $blocks = [];
-                                if (!empty($record->blocks)) {
-                                    $blocks = json_decode($record->blocks, true) ?: [];
-                                }
+                                // Since we're using array casting in the model, we can use the values directly
+                                $player = is_array($record->player) ? $record->player : [];
+                                $goal = is_array($record->goal) ? $record->goal : [];
+                                $route = is_array($record->route) ? $record->route : [];
+                                $blocks = is_array($record->blocks) ? $record->blocks : [];
                                 
                                 // Set the data for the level editor
                                 $set('level_data', [
@@ -205,16 +191,17 @@ class LevelResource extends Resource
                                     return;
                                 }
 
-                                // Ensure we're storing valid JSON data
+                                // The state is already an array, no need to decode
                                 $player = is_array($state['player']) ? $state['player'] : [];
                                 $goal = is_array($state['goal']) ? $state['goal'] : [];
                                 $route = is_array($state['route']) ? $state['route'] : [];
                                 $blocks = is_array($state['blocks']) ? $state['blocks'] : [];
 
-                                $set('player', json_encode($player));
-                                $set('goal', json_encode($goal));
-                                $set('route', json_encode($route));
-                                $set('blocks', json_encode($blocks));
+                                // Set the values directly since we're using array casting
+                                $set('player', $player);
+                                $set('goal', $goal);
+                                $set('route', $route);
+                                $set('blocks', $blocks);
                             }),
                         Forms\Components\Hidden::make('player')
                             ->default('[]')
